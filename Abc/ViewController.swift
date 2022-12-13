@@ -12,6 +12,9 @@ import AVFoundation
 @available(iOS 15.0, *)
 class ViewController: UIViewController {
 
+    let SOUNDS_PATH = "Sounds"
+    let ATOZ_SOUND_PATH = "/AtoZ/"
+    
     var letters: [String] = [
         "A","B","C","D","E", "F", "G", "H", "I", "J", "K", "L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"
     ]
@@ -39,11 +42,30 @@ class ViewController: UIViewController {
         1016, // SMS sent
         
     ]
+    let letterSounds = ["aforapple", "bforball", "cforcat","dfordog","eforelephant","fforfish",
+                        "gforgoat","hforhorse","iforice","jforjuice","kforkite","lforlion","mformonkey",
+                        "nfornose","ofororange","pforpen","qforqueen","rforrabbit","sforsun",
+                        "tfortiger","uforumbrella","vforvan","wforwater","xforxylophone","yforyak",
+                        "zforzebra"
+    ]
     let systemSoundID: SystemSoundID = 1211
     func playSound() {
         AudioServicesPlaySystemSound(systemSoundID)
     }
 
+    func playAudio(index: Int){
+//        let random_choice = letterSounds.randomElement()
+        let choice = letterSounds[index]
+        let path = SOUNDS_PATH+ATOZ_SOUND_PATH+choice
+        let audioPath = Bundle.main.path(forResource: choice, ofType: "mp3")
+        do {
+            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
+            player.play()
+        } catch {
+            print("Something went wrong!!!")
+        }
+    }
+    
     @IBOutlet weak var letterView: UITextView!
     
     override func viewDidLoad() {
@@ -59,7 +81,7 @@ class ViewController: UIViewController {
         nextKey -= 1
         letterView.text = letters[nextKey]
         letterView.textColor = colors.randomElement()
-        playSound()
+        playAudio(index: nextKey)
     }
     
     @IBAction func nextButton(_ sender: Any) {
@@ -70,12 +92,13 @@ class ViewController: UIViewController {
         nextKey += 1
         letterView.text = letters[nextKey]
         letterView.textColor = colors.randomElement()
-        playSound()
+        playAudio(index: nextKey)
   }
     
     @IBAction func resetButton(_ sender: Any) {
        letterView.text = letters[0]
         nextKey = 0
+        playAudio(index: 0)
     }
 }
 
