@@ -30,18 +30,12 @@ struct Constants{
                 .systemGreen
                 
             ]
-            static let letterSounds: [String] = [
+            static let letterImagesAndSounds: [String] = [
                 "aforapple", "bforball", "cforcat","dfordog","eforelephant","fforfish",
                 "gforgoat","hforhorse","iforice","jforjuice","kforkite","lforlion","mformonkey",
-                "nfornose","ofororange","pforpen","qforqueen","rforrabbit","sforsun","tfortiger",
+                "nfornest","ofororange","pforparrot","qforqueen","rforrabbit","sforsun","tfortiger",
                 "uforumbrella","vforvan","wforwater","xforxylophone","yforyak","zforzebra"
             ]
-            static let letterImages: [String] = [
-                "aforapple", "bforball", "cforcat","dfordog","eforelephant","fforfish",
-                "gforgoat","hforhorse","iforice","jforjuice","kforkite","lforlion","mformonkey",
-                "nfornose","ofororange","pforpen","qforqueen","rforrabbit","sforsun","tfortiger",
-                "uforumbrella","vforvan","wforwater","xforxylophone","yforyak","zforzebra"
-             ]
         }
     }
 }

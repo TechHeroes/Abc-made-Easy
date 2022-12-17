@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		8983D995294A14CD00FFAE1D /* appConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8983D994294A14CD00FFAE1D /* appConstants.swift */; };
 		898EFFA6294D99F900BCEF4A /* appOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898EFFA5294D99F900BCEF4A /* appOperations.swift */; };
+		898EFFA8294DC01900BCEF4A /* swipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898EFFA7294DC01900BCEF4A /* swipeActions.swift */; };
+		898EFFAB294DC7B300BCEF4A /* pforparrot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 898EFFA9294DC7B200BCEF4A /* pforparrot.mp3 */; };
+		898EFFAC294DC7B300BCEF4A /* nfornest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 898EFFAA294DC7B200BCEF4A /* nfornest.mp3 */; };
 		89C19214294725480092A233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C19213294725480092A233 /* AppDelegate.swift */; };
 		89C19216294725480092A233 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C19215294725480092A233 /* SceneDelegate.swift */; };
 		89C19218294725480092A233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C19217294725480092A233 /* ViewController.swift */; };
@@ -31,8 +34,6 @@
 		89C6D73729486E9800D41827 /* vforvan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D71D29486E9800D41827 /* vforvan.mp3 */; };
 		89C6D73829486E9800D41827 /* uforumbrella.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D71E29486E9800D41827 /* uforumbrella.mp3 */; };
 		89C6D73929486E9800D41827 /* jforjuice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D71F29486E9800D41827 /* jforjuice.mp3 */; };
-		89C6D73A29486E9800D41827 /* nfornose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D72029486E9800D41827 /* nfornose.mp3 */; };
-		89C6D73B29486E9800D41827 /* pforpen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D72129486E9800D41827 /* pforpen.mp3 */; };
 		89C6D73C29486E9800D41827 /* cforcat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D72229486E9800D41827 /* cforcat.mp3 */; };
 		89C6D73D29486E9800D41827 /* aforapple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D72329486E9800D41827 /* aforapple.mp3 */; };
 		89C6D73E29486E9800D41827 /* rforrabbit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D72429486E9800D41827 /* rforrabbit.mp3 */; };
@@ -69,6 +70,9 @@
 /* Begin PBXFileReference section */
 		8983D994294A14CD00FFAE1D /* appConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appConstants.swift; sourceTree = "<group>"; };
 		898EFFA5294D99F900BCEF4A /* appOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appOperations.swift; sourceTree = "<group>"; };
+		898EFFA7294DC01900BCEF4A /* swipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipeActions.swift; sourceTree = "<group>"; };
+		898EFFA9294DC7B200BCEF4A /* pforparrot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pforparrot.mp3; path = ../../../../../Downloads/pforparrot.mp3; sourceTree = "<group>"; };
+		898EFFAA294DC7B200BCEF4A /* nfornest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nfornest.mp3; path = ../../../../../Downloads/nfornest.mp3; sourceTree = "<group>"; };
 		89C19210294725480092A233 /* Abc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C19213294725480092A233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89C19215294725480092A233 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,8 +99,6 @@
 		89C6D71D29486E9800D41827 /* vforvan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = vforvan.mp3; path = "../../../../../Documents/AtoZ (with names)/vforvan.mp3"; sourceTree = "<group>"; };
 		89C6D71E29486E9800D41827 /* uforumbrella.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = uforumbrella.mp3; path = "../../../../../Documents/AtoZ (with names)/uforumbrella.mp3"; sourceTree = "<group>"; };
 		89C6D71F29486E9800D41827 /* jforjuice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = jforjuice.mp3; path = "../../../../../Documents/AtoZ (with names)/jforjuice.mp3"; sourceTree = "<group>"; };
-		89C6D72029486E9800D41827 /* nfornose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nfornose.mp3; path = "../../../../../Documents/AtoZ (with names)/nfornose.mp3"; sourceTree = "<group>"; };
-		89C6D72129486E9800D41827 /* pforpen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pforpen.mp3; path = "../../../../../Documents/AtoZ (with names)/pforpen.mp3"; sourceTree = "<group>"; };
 		89C6D72229486E9800D41827 /* cforcat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cforcat.mp3; path = "../../../../../Documents/AtoZ (with names)/cforcat.mp3"; sourceTree = "<group>"; };
 		89C6D72329486E9800D41827 /* aforapple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = aforapple.mp3; path = "../../../../../Documents/AtoZ (with names)/aforapple.mp3"; sourceTree = "<group>"; };
 		89C6D72429486E9800D41827 /* rforrabbit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rforrabbit.mp3; path = "../../../../../Documents/AtoZ (with names)/rforrabbit.mp3"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 		89C19207294725480092A233 = {
 			isa = PBXGroup;
 			children = (
+				898EFFA7294DC01900BCEF4A /* swipeActions.swift */,
 				89CD71622949AE7B00D52ED8 /* aforapple.png */,
 				89CD71632949AE7B00D52ED8 /* bforball.png */,
 				89CD71612949AE7B00D52ED8 /* cforcat.png */,
@@ -208,6 +211,8 @@
 		89C6D71229486E8300D41827 /* AtoZ */ = {
 			isa = PBXGroup;
 			children = (
+				898EFFAA294DC7B200BCEF4A /* nfornest.mp3 */,
+				898EFFA9294DC7B200BCEF4A /* pforparrot.mp3 */,
 				89C6D72329486E9800D41827 /* aforapple.mp3 */,
 				89C6D71529486E9800D41827 /* bforball.mp3 */,
 				89C6D72229486E9800D41827 /* cforcat.mp3 */,
@@ -221,9 +226,7 @@
 				89C6D72A29486E9800D41827 /* kforkite.mp3 */,
 				89C6D71629486E9800D41827 /* lforlion.mp3 */,
 				89C6D71C29486E9800D41827 /* mformonkey.mp3 */,
-				89C6D72029486E9800D41827 /* nfornose.mp3 */,
 				89C6D71429486E9800D41827 /* ofororange.mp3 */,
-				89C6D72129486E9800D41827 /* pforpen.mp3 */,
 				89C6D72B29486E9800D41827 /* qforqueen.mp3 */,
 				89C6D72429486E9800D41827 /* rforrabbit.mp3 */,
 				89C6D72729486E9800D41827 /* sforsun.mp3 */,
@@ -355,7 +358,6 @@
 				89C6D73829486E9800D41827 /* uforumbrella.mp3 in Resources */,
 				89C6D73F29486E9800D41827 /* yforyak.mp3 in Resources */,
 				89C6D74129486E9800D41827 /* sforsun.mp3 in Resources */,
-				89C6D73A29486E9800D41827 /* nfornose.mp3 in Resources */,
 				89C6D73329486E9800D41827 /* eforelephant.mp3 in Resources */,
 				89C6D72E29486E9800D41827 /* ofororange.mp3 in Resources */,
 				89C6D74029486E9800D41827 /* iforice.mp3 in Resources */,
@@ -368,12 +370,13 @@
 				89C6D73E29486E9800D41827 /* rforrabbit.mp3 in Resources */,
 				89C6D73629486E9800D41827 /* mformonkey.mp3 in Resources */,
 				89C6D73929486E9800D41827 /* jforjuice.mp3 in Resources */,
+				898EFFAC294DC7B300BCEF4A /* nfornest.mp3 in Resources */,
 				89C6D74429486E9800D41827 /* kforkite.mp3 in Resources */,
+				898EFFAB294DC7B300BCEF4A /* pforparrot.mp3 in Resources */,
 				89C1921D2947254A0092A233 /* Assets.xcassets in Resources */,
 				89C6D74629486E9800D41827 /* wforwater.mp3 in Resources */,
 				89C6D72F29486E9800D41827 /* bforball.mp3 in Resources */,
 				89C1921B294725480092A233 /* Main.storyboard in Resources */,
-				89C6D73B29486E9800D41827 /* pforpen.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +401,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898EFFA8294DC01900BCEF4A /* swipeActions.swift in Sources */,
 				898EFFA6294D99F900BCEF4A /* appOperations.swift in Sources */,
 				89C19218294725480092A233 /* ViewController.swift in Sources */,
 				89C19214294725480092A233 /* AppDelegate.swift in Sources */,

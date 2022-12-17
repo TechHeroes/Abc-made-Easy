@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Abc
 //
-//  Created by Mansoor Khan on 12/12/22.
+//  Created by Mansoor Khan <thisismansoorkhan@gmail.com> on 12/12/22.
 //
 
 import UIKit
@@ -11,61 +11,121 @@ import UIKit
 @available(iOS 15.0, *)
 class ViewController: UIViewController {
 
+    
     @IBOutlet weak var prevButtonLabel: UIButton!
-    
     @IBOutlet weak var nextButtonLabel: UIButton!
-    
     @IBOutlet weak var restartButtonLabel: UIButton!
     @IBOutlet weak var letterView: UITextView!
     @IBOutlet weak var letterImageView: UIImageView!
     
-    var letters: [String] = Constants.Alphabets.English.letters
-    let colors: [UIColor] = Constants.Alphabets.English.colors
+    
+    var nextKey = 1
 
     
     @IBAction func prevButton(_ sender: Any) {
         if nextKey < 1 {
             nextKey = 1
         }
+        
         nextKey -= 1
-        letterView.text = letters[nextKey]
-        letterView.textColor = colors.randomElement()
+        setTextAndColor(index: nextKey, target: letterView)
+        setImage(index: nextKey, target: letterImageView)
         playAudio(index: nextKey)
-        letterImageView.image = UIImage(named: letterImages[nextKey])
-    }
+   }
     
     @IBAction func nextButton(_ sender: Any) {
         
         if nextKey > 24 {
             nextKey = 24
         }
+        
         nextKey += 1
-        letterView.text = letters[nextKey]
-        letterView.textColor = colors.randomElement()
+        setTextAndColor(index: nextKey, target: letterView)
+        setImage(index: nextKey, target: letterImageView)
         playAudio(index: nextKey)
-        letterImageView.image = UIImage(named: letterImages[nextKey])
   }
     
     @IBAction func resetButton(_ sender: Any) {
        letterView.text = letters[0]
         nextKey = 0
+        setImage(index: 0, target: letterImageView)
         playAudio(index: 0)
-        letterImageView.image = UIImage(named: letterImages[0])
+    }
+
+    // MARK: - View Life Cycle
+    let swipeableView: UIView = {
+       // Initialize View
+       let view = UIView(frame: CGRect(origin: .zero,
+                                       size: CGSize(width: 400, height: 600.0)))
+
+       // Configure View
+       view.translatesAutoresizingMaskIntoConstraints = false
+
+       return view
+   }()
+    
+    @objc func didSwipe(_ sender: UISwipeGestureRecognizer) {
+        // Current Frame
+        let frame = swipeableView.frame
+
+        switch sender.direction {
+        case .up:
+            nextButton((Any).self)
+        case .down:
+            prevButton((Any).self)
+        case .left:
+            nextButton((Any).self)
+        case .right:
+            prevButton((Any).self)
+        default:
+            break
+        }
+        UIView.animate(withDuration: 0.25) {
+            self.swipeableView.frame = frame
+        }
+    }
+    
+    func createSwipeGestureRecognizer(for direction: UISwipeGestureRecognizer.Direction) -> UISwipeGestureRecognizer {
+       // Initialize Swipe Gesture Recognizer
+       let swipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(didSwipe(_:)))
+
+       // Configure Swipe Gesture Recognizer
+       swipeGestureRecognizer.direction = direction
+
+       return swipeGestureRecognizer
+   }
+
+    func handleSwipeGestures() -> Void {
+       // Create Swipe Gesture Recognizers
+       swipeableView.addGestureRecognizer(createSwipeGestureRecognizer(for: .up))
+       swipeableView.addGestureRecognizer(createSwipeGestureRecognizer(for: .down))
+       swipeableView.addGestureRecognizer(createSwipeGestureRecognizer(for: .left))
+       swipeableView.addGestureRecognizer(createSwipeGestureRecognizer(for: .right))
+   }
+    
+    @objc func checkAction(sender : UITapGestureRecognizer) {
+        // Do what you want
+        playAudio(index: nextKey)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
         view.backgroundColor = .white
         letterView.backgroundColor = .white
         
-        prevButtonLabel.setTitle("Previous", for: .normal)
-        nextButtonLabel.setTitle("Next", for: .normal)
         restartButtonLabel.setTitle("Restart", for: .normal)
         resetButton((Any).self)
-        view.addSubview(letterImageView)
         
+        view.addSubview(letterImageView)
+        view.addSubview(swipeableView)
+        
+        // Handle swipte events
+        handleSwipeGestures()
+
+        // Handle tap event
+        let gesture = UITapGestureRecognizer(target: self, action:  #selector(checkAction))
+        view.addGestureRecognizer(gesture)
     }
 
 }

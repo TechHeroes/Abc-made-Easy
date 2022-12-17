@@ -4,7 +4,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,32 +17,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aforapple.png" translatesAutoresizingMaskIntoConstraints="NO" id="DMP-u7-HxC">
-                                <rect key="frame" x="33" y="349" width="300" height="231"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="aforapple.png" translatesAutoresizingMaskIntoConstraints="NO" id="DMP-u7-HxC">
+                                <rect key="frame" x="44.06476683964388" y="428" width="299.99999999999983" height="231.00000000000009"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="231" id="B1t-yN-QkA"/>
                                 </constraints>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium" weight="medium"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" alwaysBounceHorizontal="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" maximumZoomScale="2" keyboardDismissMode="interactive" editable="NO" text="A" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" id="b54-2a-FgE">
+                                <rect key="frame" x="43.72699386503291" y="35.000000000000227" width="302.99999999999994" height="354.99999999999994"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES"/>
+                                </accessibility>
+                                <color key="textColor" systemColor="systemTealColor"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="280"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <view contentMode="center" semanticContentAttribute="spatial" id="Vfe-NZ-D9W" userLabel="ButtonGroup">
-                                <rect key="frame" x="30" y="671" width="298" height="137"/>
+                                <rect key="frame" x="33" y="750" width="300" height="80"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjn-Tc-Xhr">
-                                        <rect key="frame" x="24" y="8" width="141.33333333333334" height="50"/>
-                                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
-                                        <color key="tintColor" name="AccentColor"/>
-                                        <size key="titleShadowOffset" width="10" height="10"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Previous" cornerStyle="large">
-                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <action selector="prevButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cst-2h-f1k"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVp-69-b40">
-                                        <rect key="frame" x="92" y="67" width="124" height="50"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVp-69-b40">
+                                        <rect key="frame" x="74.4067357515612" y="0.0" width="150.00000000000023" height="59.999999999999943"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <size key="titleShadowOffset" width="10" height="10"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Restart" cornerStyle="large">
@@ -54,31 +52,9 @@
                                             <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S0K-n0-qfv"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4VQ-aY-rJl">
-                                        <rect key="frame" x="189" y="8" width="88.333333333333314" height="50"/>
-                                        <size key="titleShadowOffset" width="10" height="10"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Next" cornerStyle="large">
-                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
-                                            <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j13-TF-Baz"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="6rh-Qe-cX5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="4VQ-aY-rJl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wjn-Tc-Xhr" secondAttribute="trailing" constant="8" symbolic="YES" id="FFo-PW-t0C"/>
-                                    <constraint firstItem="wjn-Tc-Xhr" firstAttribute="leading" secondItem="6rh-Qe-cX5" secondAttribute="leading" constant="24" id="Sys-MI-fNN"/>
-                                    <constraint firstItem="6rh-Qe-cX5" firstAttribute="trailing" secondItem="aVp-69-b40" secondAttribute="trailing" constant="82" id="eCG-fn-TGc"/>
-                                    <constraint firstItem="wjn-Tc-Xhr" firstAttribute="baseline" secondItem="4VQ-aY-rJl" secondAttribute="baseline" id="fhi-ba-94f"/>
-                                    <constraint firstItem="aVp-69-b40" firstAttribute="top" secondItem="wjn-Tc-Xhr" secondAttribute="bottom" constant="9" id="gQZ-Kz-ELP"/>
-                                    <constraint firstItem="6rh-Qe-cX5" firstAttribute="trailing" secondItem="4VQ-aY-rJl" secondAttribute="trailing" constant="20.666666666666686" id="ozc-uG-fvr"/>
-                                    <constraint firstItem="aVp-69-b40" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6rh-Qe-cX5" secondAttribute="leading" id="rUa-e9-xCr"/>
-                                    <constraint firstItem="wjn-Tc-Xhr" firstAttribute="top" secondItem="Vfe-NZ-D9W" secondAttribute="topMargin" id="znM-2P-oul"/>
-                                </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn A...B...C" textAlignment="center" lineBreakMode="wordWrap" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tfQ-Hy-0JF">
                                 <rect key="frame" x="64" y="71" width="265" height="79"/>
@@ -90,16 +66,6 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="6" height="6"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" alwaysBounceHorizontal="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" maximumZoomScale="2" keyboardDismissMode="interactive" editable="NO" text="A" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b54-2a-FgE">
-                                <rect key="frame" x="45.333333333333343" y="35" width="300" height="250"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" staticText="YES"/>
-                                </accessibility>
-                                <color key="textColor" systemColor="systemTealColor"/>
-                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="230"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -123,8 +89,6 @@
                     <connections>
                         <outlet property="letterImageView" destination="DMP-u7-HxC" id="mvf-tZ-b7k"/>
                         <outlet property="letterView" destination="b54-2a-FgE" id="eIT-Qp-bWs"/>
-                        <outlet property="nextButtonLabel" destination="4VQ-aY-rJl" id="zs8-rG-K3W"/>
-                        <outlet property="prevButtonLabel" destination="wjn-Tc-Xhr" id="wMv-ng-dqK"/>
                         <outlet property="restartButtonLabel" destination="aVp-69-b40" id="zBr-tW-JOh"/>
                     </connections>
                 </viewController>
@@ -136,23 +100,14 @@
     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="aforapple.png" width="207" height="243"/>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tertiarySystemFillColor">
-            <color red="0.46274509803921571" green="0.46274509803921571" blue="0.50196078431372548" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
