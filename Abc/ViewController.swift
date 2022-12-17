@@ -6,74 +6,23 @@
 //
 
 import UIKit
-import AVFoundation
 
 @available(iOS 15.0, *)
 @available(iOS 15.0, *)
 class ViewController: UIViewController {
 
-    let SOUNDS_PATH = "Sounds"
-    let ATOZ_SOUND_PATH = "/AtoZ/"
+    @IBOutlet weak var prevButtonLabel: UIButton!
     
-    var letters: [String] = [
-        "A","B","C","D","E", "F", "G", "H", "I", "J", "K", "L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"
-    ]
-    var nextKey = 1
+    @IBOutlet weak var nextButtonLabel: UIButton!
     
-    let colors: [UIColor] = [
-        .systemPink,
-        .systemRed,
-        .systemBlue,
-        .systemCyan,
-        .systemMint,
-        .systemTeal,
-        .systemOrange,
-        .systemBrown,
-        .systemIndigo,
-        .systemPurple,
-        .systemYellow
-    ]
-    
-    var player: AVAudioPlayer!
-    // create a sound ID, in this case its the tweet sound.
-    let sounds = [
-        1016, //tweet
-        1009, // SMS received
-        1016, // SMS sent
-        
-    ]
-    let letterSounds = ["aforapple", "bforball", "cforcat","dfordog","eforelephant","fforfish",
-                        "gforgoat","hforhorse","iforice","jforjuice","kforkite","lforlion","mformonkey",
-                        "nfornose","ofororange","pforpen","qforqueen","rforrabbit","sforsun",
-                        "tfortiger","uforumbrella","vforvan","wforwater","xforxylophone","yforyak",
-                        "zforzebra"
-    ]
-    let systemSoundID: SystemSoundID = 1211
-    func playSound() {
-        AudioServicesPlaySystemSound(systemSoundID)
-    }
-
-    func playAudio(index: Int){
-//        let random_choice = letterSounds.randomElement()
-        let choice = letterSounds[index]
-        let path = SOUNDS_PATH+ATOZ_SOUND_PATH+choice
-        let audioPath = Bundle.main.path(forResource: choice, ofType: "mp3")
-        do {
-            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
-            player.play()
-        } catch {
-            print("Something went wrong!!!")
-        }
-    }
-    
+    @IBOutlet weak var restartButtonLabel: UIButton!
     @IBOutlet weak var letterView: UITextView!
+    @IBOutlet weak var letterImageView: UIImageView!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        resetButton((Any).self)
-    }
+    var letters: [String] = Constants.Alphabets.English.letters
+    let colors: [UIColor] = Constants.Alphabets.English.colors
 
+    
     @IBAction func prevButton(_ sender: Any) {
         if nextKey < 1 {
             nextKey = 1
@@ -82,6 +31,7 @@ class ViewController: UIViewController {
         letterView.text = letters[nextKey]
         letterView.textColor = colors.randomElement()
         playAudio(index: nextKey)
+        letterImageView.image = UIImage(named: letterImages[nextKey])
     }
     
     @IBAction func nextButton(_ sender: Any) {
@@ -93,12 +43,30 @@ class ViewController: UIViewController {
         letterView.text = letters[nextKey]
         letterView.textColor = colors.randomElement()
         playAudio(index: nextKey)
+        letterImageView.image = UIImage(named: letterImages[nextKey])
   }
     
     @IBAction func resetButton(_ sender: Any) {
        letterView.text = letters[0]
         nextKey = 0
         playAudio(index: 0)
+        letterImageView.image = UIImage(named: letterImages[0])
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
+        letterView.backgroundColor = .white
+        
+        prevButtonLabel.setTitle("Previous", for: .normal)
+        nextButtonLabel.setTitle("Next", for: .normal)
+        restartButtonLabel.setTitle("Restart", for: .normal)
+        resetButton((Any).self)
+        view.addSubview(letterImageView)
+        
+    }
+
 }
 

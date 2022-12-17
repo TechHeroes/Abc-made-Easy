@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8983D995294A14CD00FFAE1D /* appConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8983D994294A14CD00FFAE1D /* appConstants.swift */; };
+		898EFFA6294D99F900BCEF4A /* appOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898EFFA5294D99F900BCEF4A /* appOperations.swift */; };
 		89C19214294725480092A233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C19213294725480092A233 /* AppDelegate.swift */; };
 		89C19216294725480092A233 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C19215294725480092A233 /* SceneDelegate.swift */; };
 		89C19218294725480092A233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C19217294725480092A233 /* ViewController.swift */; };
@@ -42,6 +44,9 @@
 		89C6D74429486E9800D41827 /* kforkite.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D72A29486E9800D41827 /* kforkite.mp3 */; };
 		89C6D74529486E9800D41827 /* qforqueen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D72B29486E9800D41827 /* qforqueen.mp3 */; };
 		89C6D74629486E9800D41827 /* wforwater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D72C29486E9800D41827 /* wforwater.mp3 */; };
+		89CD71642949AE7B00D52ED8 /* cforcat.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CD71612949AE7B00D52ED8 /* cforcat.png */; };
+		89CD71652949AE7B00D52ED8 /* aforapple.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CD71622949AE7B00D52ED8 /* aforapple.png */; };
+		89CD71662949AE7B00D52ED8 /* bforball.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CD71632949AE7B00D52ED8 /* bforball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +67,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8983D994294A14CD00FFAE1D /* appConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appConstants.swift; sourceTree = "<group>"; };
+		898EFFA5294D99F900BCEF4A /* appOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appOperations.swift; sourceTree = "<group>"; };
 		89C19210294725480092A233 /* Abc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C19213294725480092A233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89C19215294725480092A233 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		89C19217294725480092A233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89C19217294725480092A233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		89C1921A294725480092A233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89C1921C2947254A0092A233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89C1921F2947254A0092A233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,6 +108,10 @@
 		89C6D72A29486E9800D41827 /* kforkite.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = kforkite.mp3; path = "../../../../../Documents/AtoZ (with names)/kforkite.mp3"; sourceTree = "<group>"; };
 		89C6D72B29486E9800D41827 /* qforqueen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = qforqueen.mp3; path = "../../../../../Documents/AtoZ (with names)/qforqueen.mp3"; sourceTree = "<group>"; };
 		89C6D72C29486E9800D41827 /* wforwater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wforwater.mp3; path = "../../../../../Documents/AtoZ (with names)/wforwater.mp3"; sourceTree = "<group>"; };
+		89CD7160294987D700D52ED8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		89CD71612949AE7B00D52ED8 /* cforcat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cforcat.png; path = ../../Pictures/cforcat.png; sourceTree = "<group>"; };
+		89CD71622949AE7B00D52ED8 /* aforapple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aforapple.png; path = ../../Pictures/aforapple.png; sourceTree = "<group>"; };
+		89CD71632949AE7B00D52ED8 /* bforball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bforball.png; path = ../../Pictures/bforball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +142,9 @@
 		89C19207294725480092A233 = {
 			isa = PBXGroup;
 			children = (
+				89CD71622949AE7B00D52ED8 /* aforapple.png */,
+				89CD71632949AE7B00D52ED8 /* bforball.png */,
+				89CD71612949AE7B00D52ED8 /* cforcat.png */,
 				89C19212294725480092A233 /* Abc */,
 				89C192292947254A0092A233 /* AbcTests */,
 				89C192332947254A0092A233 /* AbcUITests */,
@@ -155,6 +169,8 @@
 				89C19213294725480092A233 /* AppDelegate.swift */,
 				89C19215294725480092A233 /* SceneDelegate.swift */,
 				89C19217294725480092A233 /* ViewController.swift */,
+				898EFFA5294D99F900BCEF4A /* appOperations.swift */,
+				8983D994294A14CD00FFAE1D /* appConstants.swift */,
 				89C19219294725480092A233 /* Main.storyboard */,
 				89C1921C2947254A0092A233 /* Assets.xcassets */,
 				89C1921E2947254A0092A233 /* LaunchScreen.storyboard */,
@@ -162,6 +178,7 @@
 			);
 			path = Abc;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		89C192292947254A0092A233 /* AbcTests */ = {
 			isa = PBXGroup;
@@ -328,11 +345,13 @@
 				89C192202947254A0092A233 /* LaunchScreen.storyboard in Resources */,
 				89C6D73229486E9800D41827 /* zforzebra.mp3 in Resources */,
 				89C6D73529486E9800D41827 /* dfordog.mp3 in Resources */,
+				89CD71662949AE7B00D52ED8 /* bforball.png in Resources */,
 				89C6D73C29486E9800D41827 /* cforcat.mp3 in Resources */,
 				89C6D73729486E9800D41827 /* vforvan.mp3 in Resources */,
 				89C6D74529486E9800D41827 /* qforqueen.mp3 in Resources */,
 				89C6D73D29486E9800D41827 /* aforapple.mp3 in Resources */,
 				89C6D73029486E9800D41827 /* lforlion.mp3 in Resources */,
+				89CD71642949AE7B00D52ED8 /* cforcat.png in Resources */,
 				89C6D73829486E9800D41827 /* uforumbrella.mp3 in Resources */,
 				89C6D73F29486E9800D41827 /* yforyak.mp3 in Resources */,
 				89C6D74129486E9800D41827 /* sforsun.mp3 in Resources */,
@@ -343,6 +362,7 @@
 				89C6D73129486E9800D41827 /* hforhorse.mp3 in Resources */,
 				89C6D72D29486E9800D41827 /* tfortiger.mp3 in Resources */,
 				89C6D73429486E9800D41827 /* fforfish.mp3 in Resources */,
+				89CD71652949AE7B00D52ED8 /* aforapple.png in Resources */,
 				89C6D74229486E9800D41827 /* gforgoat.mp3 in Resources */,
 				89C6D74329486E9800D41827 /* xforxylophone.mp3 in Resources */,
 				89C6D73E29486E9800D41827 /* rforrabbit.mp3 in Resources */,
@@ -378,9 +398,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898EFFA6294D99F900BCEF4A /* appOperations.swift in Sources */,
 				89C19218294725480092A233 /* ViewController.swift in Sources */,
 				89C19214294725480092A233 /* AppDelegate.swift in Sources */,
 				89C19216294725480092A233 /* SceneDelegate.swift in Sources */,
+				8983D995294A14CD00FFAE1D /* appConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +443,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				89C1921A294725480092A233 /* Base */,
+				89CD7160294987D700D52ED8 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

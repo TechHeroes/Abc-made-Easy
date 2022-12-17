@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "4VQ-aY-rJl"; */
+"4VQ-aY-rJl.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4VQ-aY-rJl"; */
+"4VQ-aY-rJl.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Restart"; ObjectID = "aVp-69-b40"; */
+"aVp-69-b40.configuration.title" = "Restart";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aVp-69-b40"; */
+"aVp-69-b40.normalTitle" = "Button";
+
+/* Class = "UITextView"; text = "A"; ObjectID = "b54-2a-FgE"; */
+"b54-2a-FgE.text" = "A";
+
+/* Class = "UILabel"; text = "Learn A...B...C"; ObjectID = "tfQ-Hy-0JF"; */
+"tfQ-Hy-0JF.text" = "Learn A...B...C";
+
+/* Class = "UIButton"; configuration.title = "Previous"; ObjectID = "wjn-Tc-Xhr"; */
+"wjn-Tc-Xhr.configuration.title" = "Previous";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wjn-Tc-Xhr"; */
+"wjn-Tc-Xhr.normalTitle" = "Button";
