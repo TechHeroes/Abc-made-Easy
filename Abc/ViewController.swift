@@ -114,7 +114,7 @@ class ViewController: UIViewController {
         view.backgroundColor = .white
         letterView.backgroundColor = .white
         
-        restartButtonLabel.setTitle("Restart", for: .normal)
+//        restartButtonLabel.setTitle("Restart", for: .normal)
         resetButton((Any).self)
         
         view.addSubview(letterImageView)
