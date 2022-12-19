@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Abc.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>4D8FDA7C3AFFE044CF8139F3D5908BF3EB704753</string>
+				<key>dateExpires</key>
+				<string>25/11/23</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>FMTQ7WAFS9.com.roosnam.Abc</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>FMTQ7WAFS9</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Abc.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>b8485b89-32b6-492b-a5b4-90dc5a0b0ab1</string>
+				<key>dateExpires</key>
+				<string>18/12/23</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>FMTQ7WAFS9</string>
+				<key>name</key>
+				<string>Mansoor Khan</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

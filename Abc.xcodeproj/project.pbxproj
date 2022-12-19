@@ -587,7 +587,7 @@
 				DEVELOPMENT_TEAM = FMTQ7WAFS9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Abc/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ABC;
+				INFOPLIST_KEY_CFBundleDisplayName = "ABC by Abba";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
@@ -619,7 +619,7 @@
 				DEVELOPMENT_TEAM = FMTQ7WAFS9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Abc/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ABC;
+				INFOPLIST_KEY_CFBundleDisplayName = "ABC by Abba";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
