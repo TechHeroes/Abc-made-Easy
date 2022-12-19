@@ -17,15 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="aforapple.png" translatesAutoresizingMaskIntoConstraints="NO" id="DMP-u7-HxC">
-                                <rect key="frame" x="44.06476683964388" y="428" width="299.99999999999983" height="231.00000000000009"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aforapple.png" translatesAutoresizingMaskIntoConstraints="NO" id="DMP-u7-HxC">
+                                <rect key="frame" x="33" y="454" width="207" height="231"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="231" id="B1t-yN-QkA"/>
                                 </constraints>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium" weight="medium"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" alwaysBounceHorizontal="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" maximumZoomScale="2" keyboardDismissMode="interactive" editable="NO" text="A" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" id="b54-2a-FgE">
-                                <rect key="frame" x="43.72699386503291" y="35.000000000000227" width="302.99999999999994" height="354.99999999999994"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" alwaysBounceHorizontal="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" maximumZoomScale="2" keyboardDismissMode="interactive" editable="NO" text="A" textAlignment="center" selectable="NO" id="b54-2a-FgE">
+                                <rect key="frame" x="33" y="35" width="314" height="355"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -39,15 +39,16 @@
                                 <rect key="frame" x="33" y="750" width="300" height="80"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVp-69-b40">
-                                        <rect key="frame" x="74.4067357515612" y="0.0" width="150.00000000000023" height="59.999999999999943"/>
+                                    <button opaque="NO" contentMode="scaleAspectFit" semanticContentAttribute="spatial" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="clip" id="aVp-69-b40">
+                                        <rect key="frame" x="73.352839931153198" y="-2.2737367544323206e-13" width="150.00000000000023" height="59.999999999999943"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <size key="titleShadowOffset" width="10" height="10"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Restart" cornerStyle="large">
-                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
-                                            <color key="baseBackgroundColor" systemColor="systemRedColor"/>
-                                        </buttonConfiguration>
+                                        <state key="normal" title="Restart" backgroundImage="restart" catalog="system">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S0K-n0-qfv"/>
                                         </connections>
@@ -71,7 +72,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DMP-u7-HxC" secondAttribute="trailing" constant="60" id="5Xg-hN-mVh"/>
-                            <constraint firstItem="tfQ-Hy-0JF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="EGg-UN-dfx"/>
                             <constraint firstItem="DMP-u7-HxC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="UtE-oQ-F52"/>
                             <constraint firstItem="b54-2a-FgE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45.331606217616809" id="VCZ-MM-XSm"/>
                             <constraint firstItem="b54-2a-FgE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-24.000000000000128" id="Vmg-XO-DU5"/>
@@ -100,8 +100,12 @@
     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="aforapple.png" width="207" height="243"/>
+        <image name="restart" catalog="system" width="117" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
