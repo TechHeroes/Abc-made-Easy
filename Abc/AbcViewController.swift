@@ -9,7 +9,7 @@ import UIKit
 
 @available(iOS 15.0, *)
 @available(iOS 15.0, *)
-class ViewController: UIViewController {
+class AbcViewController: UIViewController {
 
     
     @IBOutlet weak var prevButtonLabel: UIButton!
@@ -120,11 +120,11 @@ class ViewController: UIViewController {
         view.addSubview(letterImageView)
         view.addSubview(swipeableView)
         
-        // Handle swipte events
+        // Handle swipe events
         handleSwipeGestures()
 
         // Handle tap event
-        let gesture = UITapGestureRecognizer(target: self, action:  #selector(checkAction))
+        let gesture = UITapGestureRecognizer(target: self, action:  #selector(nextButton))
         view.addGestureRecognizer(gesture)
     }
 
