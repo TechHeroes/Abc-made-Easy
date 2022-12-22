@@ -15,7 +15,27 @@ class StartViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func level1Button(_ sender: UIButton) {
+        if #available(iOS 15.0, *) {
+            let storyboard = self.storyboard?.instantiateViewController(withIdentifier: "Level1ViewController") as! Level1ViewController
+            self.navigationController?.pushViewController(storyboard, animated: true)
+            
+        } else {
+            // Fallback on earlier versions
+        }
+    }
+    
+    @IBAction func startButton(_ sender: UIButton) {
+        if #available(iOS 15.0, *) {
+            let storyboard = self.storyboard?.instantiateViewController(withIdentifier: "AbcViewController") as! AbcViewController
+            self.navigationController?.pushViewController(storyboard, animated: true)
+            
+        } else {
+            // Fallback on earlier versions
+        }
+        
+        }
+    
     /*
     // MARK: - Navigation
 
