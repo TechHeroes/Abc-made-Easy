@@ -21,8 +21,8 @@
                             <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o17-85-rmZ">
                                 <rect key="frame" x="95.666666666666515" y="398.66666666666652" width="200" height="80"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Level 2">
-                                    <fontDescription key="titleFontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ABC with names">
+                                    <fontDescription key="titleFontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="20"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" systemColor="systemMintColor"/>
                                 </buttonConfiguration>
@@ -30,14 +30,14 @@
                                     <action selector="startButton:" destination="Wmo-dv-ZUV" eventType="touchUpInside" id="SoJ-bT-pJx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" changesSelectionAsPrimaryAction="YES" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="C1Q-Kd-eUZ">
+                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" changesSelectionAsPrimaryAction="YES" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="C1Q-Kd-eUZ">
                                 <rect key="frame" x="95.666666666666515" y="303.99999999999989" width="200" height="80.000000000000014"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80.000000000000014" id="5MO-da-fhU"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Level 1" cornerStyle="dynamic">
-                                    <fontDescription key="titleFontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ABC" cornerStyle="dynamic">
+                                    <fontDescription key="titleFontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="20"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" systemColor="systemMintColor"/>
                                 </buttonConfiguration>
@@ -91,7 +91,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <view contentMode="center" semanticContentAttribute="spatial" id="Vfe-NZ-D9W" userLabel="ButtonGroup">
-                                <rect key="frame" x="26" y="750" width="301" height="80"/>
+                                <rect key="frame" x="26" y="750" width="300" height="80"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="clip" hasAttributedTitle="YES" id="aVp-69-b40">

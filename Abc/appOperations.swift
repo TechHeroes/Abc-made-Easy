@@ -11,6 +11,8 @@ import UIKit
 
 let letterImagesAndSounds: [String] = Constants.Alphabets.English.letterImagesAndSounds
 let letters: [String] = Constants.Alphabets.English.letters
+let letterSounds: [String] = Constants.Alphabets.English.letters
+
 @available(iOS 15.0, *)
 let colors: [UIColor] = Constants.Alphabets.English.colors
 var player: AVAudioPlayer!
@@ -22,6 +24,21 @@ func playAudio(index: Int){
     
     let choice = letterImagesAndSounds[index]
     let audioPath = Bundle.main.path(forResource: choice, ofType: "mp3")
+    do {
+        try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
+        player.play()
+    } catch {
+        print("Something went wrong!!!")
+    }
+}
+
+func playLetterAudio(index: Int) {
+    guard (index >= 0) && (index <= 25) else {
+        return;
+    }
+    
+    let choice = letterSounds[index]
+    let audioPath = Bundle.main.path(forResource: choice, ofType: "wav")
     do {
         try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
         player.play()
