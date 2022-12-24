@@ -9,7 +9,22 @@ import UIKit
 
 class StartViewController: UIViewController {
 
+    @IBOutlet weak var lev1Button: UIButton!
+    
+    @IBOutlet weak var lev2Button: UIButton!
+    
+    func setFontProperties(btn: UIButton) {
+        btn.titleLabel?.minimumScaleFactor = 0.5
+        btn.titleLabel!.textAlignment = .left
+//        btn.titleLabel?.font.pointSize = 0.5
+//        btn.titleLabel?.numberOfLines = 0
+        btn.titleLabel?.adjustsFontSizeToFitWidth = true
+    }
+    
     override func viewDidLoad() {
+//        setFontProperties(btn: lev1Button)
+//        setFontProperties(btn: lev2Button)
+        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -25,25 +40,25 @@ class StartViewController: UIViewController {
         }
     }
     
-    @IBAction func startButton(_ sender: UIButton) {
+    @IBAction func level2Button(_ sender: UIButton) {
         if #available(iOS 15.0, *) {
-            let storyboard = self.storyboard?.instantiateViewController(withIdentifier: "AbcViewController") as! AbcViewController
+            let storyboard = self.storyboard?.instantiateViewController(withIdentifier: "Level2ViewController") as! Level2ViewController
             self.navigationController?.pushViewController(storyboard, animated: true)
             
         } else {
             // Fallback on earlier versions
         }
-        
-        }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
+    
+    @IBAction func level3Button(_ sender: UIButton) {
+        if #available(iOS 15.0, *) {
+            let storyboard = self.storyboard?.instantiateViewController(withIdentifier: "Level3ViewController") as! Level3ViewController
+            self.navigationController?.pushViewController(storyboard, animated: true)
+            
+        } else {
+            // Fallback on earlier versions
+        }
+    }
+
 
 }

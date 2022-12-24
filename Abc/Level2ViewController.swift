@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Level2ViewController.swift
 //  Abc
 //
 //  Created by Mansoor Khan <thisismansoorkhan@gmail.com> on 12/12/22.
@@ -9,7 +9,7 @@ import UIKit
 
 @available(iOS 15.0, *)
 @available(iOS 15.0, *)
-class AbcViewController: UIViewController {
+class Level2ViewController: UIViewController {
 
     
     @IBOutlet weak var prevButtonLabel: UIButton!
