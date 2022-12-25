@@ -30,12 +30,31 @@ struct Constants{
                 .systemGreen
                 
             ]
-            static let letterImagesAndSounds: [String] = [
-                "aforapple", "bforball", "cforcat","dfordog","eforelephant","fforfish",
-                "gforgoat","hforhorse","iforice","jforjuice","kforkite","lforlion","mformonkey",
-                "nfornest","ofororange","pforparrot","qforqueen","rforrabbit","sforsun","tfortiger",
-                "uforumbrella","vforvan","wforwater","xforxylophone","yforyak","zforzebra"
+            static var letterImagesAndSounds = [
+                "level1": [
+                    "A","B","C","D","E", "F", "G", "H",
+                    "I", "J", "K", "L","M","N","O","P",
+                    "Q","R","S","T","U","V",
+                    "W","X","Y","Z"
+                ],
+                "level2": [
+                    "apple", "ball", "cat","dog","elephant","fish",
+                    "goat","horse","ice","juice","kite","lion","monkey",
+                    "nest","orange","parrot","queen","rabbit","sun","tiger",
+                    "umbrella","van","water","xylophone","yak","zebra"
+                ],
+                "level3": [
+                    "ant","balloon","car","duck","egg","flower","giraffe","hen","icecream","jellyfish","key","lemon","mango","onion","quiet","rat","spoon","train","unicorn","violin","watch","xmastree",
+                    "yoyo","zoo"
+                ]
             ]
+            
+//            static let letterImagesAndSounds: [String] = [
+//                "aforapple", "bforball", "cforcat","dfordog","eforelephant","fforfish",
+//                "gforgoat","hforhorse","iforice","jforjuice","kforkite","lforlion","mformonkey",
+//                "nfornest","ofororange","pforparrot","qforqueen","rforrabbit","sforsun","tfortiger",
+//                "uforumbrella","vforvan","wforwater","xforxylophone","yforyak","zforzebra"
+//            ]
         }
     }
 }

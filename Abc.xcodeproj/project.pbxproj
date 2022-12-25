@@ -11,32 +11,32 @@
 		8983D995294A14CD00FFAE1D /* appConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8983D994294A14CD00FFAE1D /* appConstants.swift */; };
 		898EFFA6294D99F900BCEF4A /* appOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898EFFA5294D99F900BCEF4A /* appOperations.swift */; };
 		899A4760295231CC0017CC7E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A475F295231CC0017CC7E /* StartViewController.swift */; };
-		899A4763295239590017CC7E /* nfornest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 899A4761295239590017CC7E /* nfornest.mp3 */; };
-		899A4764295239590017CC7E /* pforparrot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 899A4762295239590017CC7E /* pforparrot.mp3 */; };
-		89A03FDC2950671900E5914C /* aforapple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC22950671900E5914C /* aforapple.mp3 */; };
-		89A03FDD2950671900E5914C /* dfordog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC32950671900E5914C /* dfordog.mp3 */; };
-		89A03FDE2950671900E5914C /* gforgoat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC42950671900E5914C /* gforgoat.mp3 */; };
-		89A03FE02950671900E5914C /* jforjuice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC62950671900E5914C /* jforjuice.mp3 */; };
-		89A03FE12950671900E5914C /* hforhorse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC72950671900E5914C /* hforhorse.mp3 */; };
-		89A03FE22950671900E5914C /* tfortiger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC82950671900E5914C /* tfortiger.mp3 */; };
-		89A03FE32950671900E5914C /* kforkite.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC92950671900E5914C /* kforkite.mp3 */; };
-		89A03FE42950671900E5914C /* vforvan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FCA2950671900E5914C /* vforvan.mp3 */; };
-		89A03FE52950671900E5914C /* eforelephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FCB2950671900E5914C /* eforelephant.mp3 */; };
-		89A03FE62950671900E5914C /* mformonkey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FCC2950671900E5914C /* mformonkey.mp3 */; };
-		89A03FE72950671900E5914C /* bforball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FCD2950671900E5914C /* bforball.mp3 */; };
-		89A03FE82950671900E5914C /* qforqueen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FCE2950671900E5914C /* qforqueen.mp3 */; };
-		89A03FE92950671900E5914C /* uforumbrella.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FCF2950671900E5914C /* uforumbrella.mp3 */; };
-		89A03FEA2950671900E5914C /* lforlion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD02950671900E5914C /* lforlion.mp3 */; };
-		89A03FEB2950671900E5914C /* iforice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD12950671900E5914C /* iforice.mp3 */; };
-		89A03FEC2950671900E5914C /* cforcat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD22950671900E5914C /* cforcat.mp3 */; };
-		89A03FEE2950671900E5914C /* rforrabbit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD42950671900E5914C /* rforrabbit.mp3 */; };
-		89A03FEF2950671900E5914C /* yforyak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD52950671900E5914C /* yforyak.mp3 */; };
-		89A03FF02950671900E5914C /* zforzebra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD62950671900E5914C /* zforzebra.mp3 */; };
-		89A03FF12950671900E5914C /* xforxylophone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD72950671900E5914C /* xforxylophone.mp3 */; };
-		89A03FF22950671900E5914C /* wforwater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD82950671900E5914C /* wforwater.mp3 */; };
-		89A03FF32950671900E5914C /* fforfish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD92950671900E5914C /* fforfish.mp3 */; };
-		89A03FF42950671900E5914C /* sforsun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FDA2950671900E5914C /* sforsun.mp3 */; };
-		89A03FF52950671900E5914C /* ofororange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FDB2950671900E5914C /* ofororange.mp3 */; };
+		899A4763295239590017CC7E /* nest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 899A4761295239590017CC7E /* nest.mp3 */; };
+		899A4764295239590017CC7E /* parrot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 899A4762295239590017CC7E /* parrot.mp3 */; };
+		89A03FDC2950671900E5914C /* apple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC22950671900E5914C /* apple.mp3 */; };
+		89A03FDD2950671900E5914C /* dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC32950671900E5914C /* dog.mp3 */; };
+		89A03FDE2950671900E5914C /* goat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC42950671900E5914C /* goat.mp3 */; };
+		89A03FE02950671900E5914C /* juice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC62950671900E5914C /* juice.mp3 */; };
+		89A03FE12950671900E5914C /* horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC72950671900E5914C /* horse.mp3 */; };
+		89A03FE22950671900E5914C /* tiger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC82950671900E5914C /* tiger.mp3 */; };
+		89A03FE32950671900E5914C /* kite.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FC92950671900E5914C /* kite.mp3 */; };
+		89A03FE42950671900E5914C /* van.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FCA2950671900E5914C /* van.mp3 */; };
+		89A03FE52950671900E5914C /* elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FCB2950671900E5914C /* elephant.mp3 */; };
+		89A03FE62950671900E5914C /* monkey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FCC2950671900E5914C /* monkey.mp3 */; };
+		89A03FE72950671900E5914C /* ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FCD2950671900E5914C /* ball.mp3 */; };
+		89A03FE82950671900E5914C /* queen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FCE2950671900E5914C /* queen.mp3 */; };
+		89A03FE92950671900E5914C /* umbrella.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FCF2950671900E5914C /* umbrella.mp3 */; };
+		89A03FEA2950671900E5914C /* lion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD02950671900E5914C /* lion.mp3 */; };
+		89A03FEB2950671900E5914C /* ice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD12950671900E5914C /* ice.mp3 */; };
+		89A03FEC2950671900E5914C /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD22950671900E5914C /* cat.mp3 */; };
+		89A03FEE2950671900E5914C /* rabbit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD42950671900E5914C /* rabbit.mp3 */; };
+		89A03FEF2950671900E5914C /* yak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD52950671900E5914C /* yak.mp3 */; };
+		89A03FF02950671900E5914C /* zebra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD62950671900E5914C /* zebra.mp3 */; };
+		89A03FF12950671900E5914C /* xylophone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD72950671900E5914C /* xylophone.mp3 */; };
+		89A03FF22950671900E5914C /* water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD82950671900E5914C /* water.mp3 */; };
+		89A03FF32950671900E5914C /* fish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD92950671900E5914C /* fish.mp3 */; };
+		89A03FF42950671900E5914C /* sun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FDA2950671900E5914C /* sun.mp3 */; };
+		89A03FF52950671900E5914C /* orange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FDB2950671900E5914C /* orange.mp3 */; };
 		89C19214294725480092A233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C19213294725480092A233 /* AppDelegate.swift */; };
 		89C19216294725480092A233 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C19215294725480092A233 /* SceneDelegate.swift */; };
 		89C19218294725480092A233 /* Level2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C19217294725480092A233 /* Level2ViewController.swift */; };
@@ -97,32 +97,32 @@
 		8983D994294A14CD00FFAE1D /* appConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appConstants.swift; sourceTree = "<group>"; };
 		898EFFA5294D99F900BCEF4A /* appOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appOperations.swift; sourceTree = "<group>"; };
 		899A475F295231CC0017CC7E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		899A4761295239590017CC7E /* nfornest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nfornest.mp3; sourceTree = "<group>"; };
-		899A4762295239590017CC7E /* pforparrot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pforparrot.mp3; sourceTree = "<group>"; };
-		89A03FC22950671900E5914C /* aforapple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aforapple.mp3; sourceTree = "<group>"; };
-		89A03FC32950671900E5914C /* dfordog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dfordog.mp3; sourceTree = "<group>"; };
-		89A03FC42950671900E5914C /* gforgoat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gforgoat.mp3; sourceTree = "<group>"; };
-		89A03FC62950671900E5914C /* jforjuice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jforjuice.mp3; sourceTree = "<group>"; };
-		89A03FC72950671900E5914C /* hforhorse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hforhorse.mp3; sourceTree = "<group>"; };
-		89A03FC82950671900E5914C /* tfortiger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tfortiger.mp3; sourceTree = "<group>"; };
-		89A03FC92950671900E5914C /* kforkite.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kforkite.mp3; sourceTree = "<group>"; };
-		89A03FCA2950671900E5914C /* vforvan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vforvan.mp3; sourceTree = "<group>"; };
-		89A03FCB2950671900E5914C /* eforelephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eforelephant.mp3; sourceTree = "<group>"; };
-		89A03FCC2950671900E5914C /* mformonkey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mformonkey.mp3; sourceTree = "<group>"; };
-		89A03FCD2950671900E5914C /* bforball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bforball.mp3; sourceTree = "<group>"; };
-		89A03FCE2950671900E5914C /* qforqueen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = qforqueen.mp3; sourceTree = "<group>"; };
-		89A03FCF2950671900E5914C /* uforumbrella.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uforumbrella.mp3; sourceTree = "<group>"; };
-		89A03FD02950671900E5914C /* lforlion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lforlion.mp3; sourceTree = "<group>"; };
-		89A03FD12950671900E5914C /* iforice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iforice.mp3; sourceTree = "<group>"; };
-		89A03FD22950671900E5914C /* cforcat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cforcat.mp3; sourceTree = "<group>"; };
-		89A03FD42950671900E5914C /* rforrabbit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rforrabbit.mp3; sourceTree = "<group>"; };
-		89A03FD52950671900E5914C /* yforyak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yforyak.mp3; sourceTree = "<group>"; };
-		89A03FD62950671900E5914C /* zforzebra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zforzebra.mp3; sourceTree = "<group>"; };
-		89A03FD72950671900E5914C /* xforxylophone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xforxylophone.mp3; sourceTree = "<group>"; };
-		89A03FD82950671900E5914C /* wforwater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wforwater.mp3; sourceTree = "<group>"; };
-		89A03FD92950671900E5914C /* fforfish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fforfish.mp3; sourceTree = "<group>"; };
-		89A03FDA2950671900E5914C /* sforsun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sforsun.mp3; sourceTree = "<group>"; };
-		89A03FDB2950671900E5914C /* ofororange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ofororange.mp3; sourceTree = "<group>"; };
+		899A4761295239590017CC7E /* nest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nest.mp3; sourceTree = "<group>"; };
+		899A4762295239590017CC7E /* parrot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = parrot.mp3; sourceTree = "<group>"; };
+		89A03FC22950671900E5914C /* apple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apple.mp3; sourceTree = "<group>"; };
+		89A03FC32950671900E5914C /* dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog.mp3; sourceTree = "<group>"; };
+		89A03FC42950671900E5914C /* goat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goat.mp3; sourceTree = "<group>"; };
+		89A03FC62950671900E5914C /* juice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = juice.mp3; sourceTree = "<group>"; };
+		89A03FC72950671900E5914C /* horse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = horse.mp3; sourceTree = "<group>"; };
+		89A03FC82950671900E5914C /* tiger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tiger.mp3; sourceTree = "<group>"; };
+		89A03FC92950671900E5914C /* kite.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kite.mp3; sourceTree = "<group>"; };
+		89A03FCA2950671900E5914C /* van.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = van.mp3; sourceTree = "<group>"; };
+		89A03FCB2950671900E5914C /* elephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elephant.mp3; sourceTree = "<group>"; };
+		89A03FCC2950671900E5914C /* monkey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = monkey.mp3; sourceTree = "<group>"; };
+		89A03FCD2950671900E5914C /* ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ball.mp3; sourceTree = "<group>"; };
+		89A03FCE2950671900E5914C /* queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = queen.mp3; sourceTree = "<group>"; };
+		89A03FCF2950671900E5914C /* umbrella.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = umbrella.mp3; sourceTree = "<group>"; };
+		89A03FD02950671900E5914C /* lion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lion.mp3; sourceTree = "<group>"; };
+		89A03FD12950671900E5914C /* ice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ice.mp3; sourceTree = "<group>"; };
+		89A03FD22950671900E5914C /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat.mp3; sourceTree = "<group>"; };
+		89A03FD42950671900E5914C /* rabbit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rabbit.mp3; sourceTree = "<group>"; };
+		89A03FD52950671900E5914C /* yak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yak.mp3; sourceTree = "<group>"; };
+		89A03FD62950671900E5914C /* zebra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zebra.mp3; sourceTree = "<group>"; };
+		89A03FD72950671900E5914C /* xylophone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xylophone.mp3; sourceTree = "<group>"; };
+		89A03FD82950671900E5914C /* water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water.mp3; sourceTree = "<group>"; };
+		89A03FD92950671900E5914C /* fish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fish.mp3; sourceTree = "<group>"; };
+		89A03FDA2950671900E5914C /* sun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sun.mp3; sourceTree = "<group>"; };
+		89A03FDB2950671900E5914C /* orange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orange.mp3; sourceTree = "<group>"; };
 		89C19210294725480092A233 /* Abc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C19213294725480092A233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89C19215294725480092A233 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -194,43 +194,43 @@
 		89A03FC0295066C200E5914C /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				89C2700B295606C60002DAE5 /* A-Z_Letter_Sounds */,
-				89A03FC1295066C900E5914C /* A-Z */,
+				89C2700B295606C60002DAE5 /* Level1 */,
+				89A03FC1295066C900E5914C /* Level2 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
 		};
-		89A03FC1295066C900E5914C /* A-Z */ = {
+		89A03FC1295066C900E5914C /* Level2 */ = {
 			isa = PBXGroup;
 			children = (
-				899A4761295239590017CC7E /* nfornest.mp3 */,
-				899A4762295239590017CC7E /* pforparrot.mp3 */,
-				89A03FC22950671900E5914C /* aforapple.mp3 */,
-				89A03FCD2950671900E5914C /* bforball.mp3 */,
-				89A03FD22950671900E5914C /* cforcat.mp3 */,
-				89A03FC32950671900E5914C /* dfordog.mp3 */,
-				89A03FCB2950671900E5914C /* eforelephant.mp3 */,
-				89A03FD92950671900E5914C /* fforfish.mp3 */,
-				89A03FC42950671900E5914C /* gforgoat.mp3 */,
-				89A03FC72950671900E5914C /* hforhorse.mp3 */,
-				89A03FD12950671900E5914C /* iforice.mp3 */,
-				89A03FC62950671900E5914C /* jforjuice.mp3 */,
-				89A03FC92950671900E5914C /* kforkite.mp3 */,
-				89A03FD02950671900E5914C /* lforlion.mp3 */,
-				89A03FCC2950671900E5914C /* mformonkey.mp3 */,
-				89A03FDB2950671900E5914C /* ofororange.mp3 */,
-				89A03FCE2950671900E5914C /* qforqueen.mp3 */,
-				89A03FD42950671900E5914C /* rforrabbit.mp3 */,
-				89A03FDA2950671900E5914C /* sforsun.mp3 */,
-				89A03FC82950671900E5914C /* tfortiger.mp3 */,
-				89A03FCF2950671900E5914C /* uforumbrella.mp3 */,
-				89A03FCA2950671900E5914C /* vforvan.mp3 */,
-				89A03FD82950671900E5914C /* wforwater.mp3 */,
-				89A03FD72950671900E5914C /* xforxylophone.mp3 */,
-				89A03FD52950671900E5914C /* yforyak.mp3 */,
-				89A03FD62950671900E5914C /* zforzebra.mp3 */,
+				899A4761295239590017CC7E /* nest.mp3 */,
+				899A4762295239590017CC7E /* parrot.mp3 */,
+				89A03FC22950671900E5914C /* apple.mp3 */,
+				89A03FCD2950671900E5914C /* ball.mp3 */,
+				89A03FD22950671900E5914C /* cat.mp3 */,
+				89A03FC32950671900E5914C /* dog.mp3 */,
+				89A03FCB2950671900E5914C /* elephant.mp3 */,
+				89A03FD92950671900E5914C /* fish.mp3 */,
+				89A03FC42950671900E5914C /* goat.mp3 */,
+				89A03FC72950671900E5914C /* horse.mp3 */,
+				89A03FD12950671900E5914C /* ice.mp3 */,
+				89A03FC62950671900E5914C /* juice.mp3 */,
+				89A03FC92950671900E5914C /* kite.mp3 */,
+				89A03FD02950671900E5914C /* lion.mp3 */,
+				89A03FCC2950671900E5914C /* monkey.mp3 */,
+				89A03FDB2950671900E5914C /* orange.mp3 */,
+				89A03FCE2950671900E5914C /* queen.mp3 */,
+				89A03FD42950671900E5914C /* rabbit.mp3 */,
+				89A03FDA2950671900E5914C /* sun.mp3 */,
+				89A03FC82950671900E5914C /* tiger.mp3 */,
+				89A03FCF2950671900E5914C /* umbrella.mp3 */,
+				89A03FCA2950671900E5914C /* van.mp3 */,
+				89A03FD82950671900E5914C /* water.mp3 */,
+				89A03FD72950671900E5914C /* xylophone.mp3 */,
+				89A03FD52950671900E5914C /* yak.mp3 */,
+				89A03FD62950671900E5914C /* zebra.mp3 */,
 			);
-			path = "A-Z";
+			path = Level2;
 			sourceTree = "<group>";
 		};
 		89C19207294725480092A233 = {
@@ -291,7 +291,7 @@
 			path = AbcUITests;
 			sourceTree = "<group>";
 		};
-		89C2700B295606C60002DAE5 /* A-Z_Letter_Sounds */ = {
+		89C2700B295606C60002DAE5 /* Level1 */ = {
 			isa = PBXGroup;
 			children = (
 				89C2700C295606ED0002DAE5 /* A.wav */,
@@ -321,7 +321,7 @@
 				89C27010295606ED0002DAE5 /* Y.wav */,
 				89C27022295606ED0002DAE5 /* Z.wav */,
 			);
-			path = "A-Z_Letter_Sounds";
+			path = Level1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,16 +434,16 @@
 				89C27029295606ED0002DAE5 /* N.wav in Resources */,
 				89C192202947254A0092A233 /* LaunchScreen.storyboard in Resources */,
 				89C27039295606ED0002DAE5 /* L.wav in Resources */,
-				89A03FE82950671900E5914C /* qforqueen.mp3 in Resources */,
-				89A03FE32950671900E5914C /* kforkite.mp3 in Resources */,
+				89A03FE82950671900E5914C /* queen.mp3 in Resources */,
+				89A03FE32950671900E5914C /* kite.mp3 in Resources */,
 				89C27036295606ED0002DAE5 /* U.wav in Resources */,
-				89A03FEE2950671900E5914C /* rforrabbit.mp3 in Resources */,
-				89A03FEC2950671900E5914C /* cforcat.mp3 in Resources */,
-				899A4763295239590017CC7E /* nfornest.mp3 in Resources */,
-				89A03FDD2950671900E5914C /* dfordog.mp3 in Resources */,
-				89A03FE52950671900E5914C /* eforelephant.mp3 in Resources */,
-				89A03FE12950671900E5914C /* hforhorse.mp3 in Resources */,
-				89A03FDC2950671900E5914C /* aforapple.mp3 in Resources */,
+				89A03FEE2950671900E5914C /* rabbit.mp3 in Resources */,
+				89A03FEC2950671900E5914C /* cat.mp3 in Resources */,
+				899A4763295239590017CC7E /* nest.mp3 in Resources */,
+				89A03FDD2950671900E5914C /* dog.mp3 in Resources */,
+				89A03FE52950671900E5914C /* elephant.mp3 in Resources */,
+				89A03FE12950671900E5914C /* horse.mp3 in Resources */,
+				89A03FDC2950671900E5914C /* apple.mp3 in Resources */,
 				89C27034295606ED0002DAE5 /* F.wav in Resources */,
 				89C27030295606ED0002DAE5 /* J.wav in Resources */,
 				89C27031295606ED0002DAE5 /* T.wav in Resources */,
@@ -451,23 +451,23 @@
 				89C2703D295606ED0002DAE5 /* M.wav in Resources */,
 				89C27035295606ED0002DAE5 /* C.wav in Resources */,
 				89C2702C295606ED0002DAE5 /* S.wav in Resources */,
-				89A03FE92950671900E5914C /* uforumbrella.mp3 in Resources */,
-				899A4764295239590017CC7E /* pforparrot.mp3 in Resources */,
+				89A03FE92950671900E5914C /* umbrella.mp3 in Resources */,
+				899A4764295239590017CC7E /* parrot.mp3 in Resources */,
 				89C2702F295606ED0002DAE5 /* P.wav in Resources */,
-				89A03FF22950671900E5914C /* wforwater.mp3 in Resources */,
+				89A03FF22950671900E5914C /* water.mp3 in Resources */,
 				89C27033295606ED0002DAE5 /* D.wav in Resources */,
-				89A03FEB2950671900E5914C /* iforice.mp3 in Resources */,
-				89A03FEA2950671900E5914C /* lforlion.mp3 in Resources */,
-				89A03FE22950671900E5914C /* tfortiger.mp3 in Resources */,
-				89A03FE42950671900E5914C /* vforvan.mp3 in Resources */,
-				89A03FE02950671900E5914C /* jforjuice.mp3 in Resources */,
-				89A03FF02950671900E5914C /* zforzebra.mp3 in Resources */,
-				89A03FE72950671900E5914C /* bforball.mp3 in Resources */,
+				89A03FEB2950671900E5914C /* ice.mp3 in Resources */,
+				89A03FEA2950671900E5914C /* lion.mp3 in Resources */,
+				89A03FE22950671900E5914C /* tiger.mp3 in Resources */,
+				89A03FE42950671900E5914C /* van.mp3 in Resources */,
+				89A03FE02950671900E5914C /* juice.mp3 in Resources */,
+				89A03FF02950671900E5914C /* zebra.mp3 in Resources */,
+				89A03FE72950671900E5914C /* ball.mp3 in Resources */,
 				89C2702A295606ED0002DAE5 /* Y.wav in Resources */,
-				89A03FF12950671900E5914C /* xforxylophone.mp3 in Resources */,
+				89A03FF12950671900E5914C /* xylophone.mp3 in Resources */,
 				89C2703E295606ED0002DAE5 /* Q.wav in Resources */,
 				89C1921D2947254A0092A233 /* Assets.xcassets in Resources */,
-				89A03FF42950671900E5914C /* sforsun.mp3 in Resources */,
+				89A03FF42950671900E5914C /* sun.mp3 in Resources */,
 				89C27032295606ED0002DAE5 /* G.wav in Resources */,
 				89C1921B294725480092A233 /* Main.storyboard in Resources */,
 				89C27037295606ED0002DAE5 /* X.wav in Resources */,
@@ -476,13 +476,13 @@
 				89C2703B295606ED0002DAE5 /* K.wav in Resources */,
 				89C2703C295606ED0002DAE5 /* Z.wav in Resources */,
 				89C27026295606ED0002DAE5 /* A.wav in Resources */,
-				89A03FEF2950671900E5914C /* yforyak.mp3 in Resources */,
+				89A03FEF2950671900E5914C /* yak.mp3 in Resources */,
 				89C27027295606ED0002DAE5 /* R.wav in Resources */,
-				89A03FDE2950671900E5914C /* gforgoat.mp3 in Resources */,
+				89A03FDE2950671900E5914C /* goat.mp3 in Resources */,
 				89C2702B295606ED0002DAE5 /* E.wav in Resources */,
-				89A03FF52950671900E5914C /* ofororange.mp3 in Resources */,
-				89A03FF32950671900E5914C /* fforfish.mp3 in Resources */,
-				89A03FE62950671900E5914C /* mformonkey.mp3 in Resources */,
+				89A03FF52950671900E5914C /* orange.mp3 in Resources */,
+				89A03FF32950671900E5914C /* fish.mp3 in Resources */,
+				89A03FE62950671900E5914C /* monkey.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

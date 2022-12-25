@@ -23,13 +23,13 @@ class Level1ViewController: UIViewController {
         } else {
             // Fallback on earlier versions
         }
-        playLetterAudio(index: nextKey)
+        playAudio(index: nextKey, audioType: "wav")
   }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         L1letterView.text = letters[0]
-        playLetterAudio(index: 0)
+        playAudio(index: nextKey, audioType: "wav")
         // Handle tap event
         let gesture = UITapGestureRecognizer(target: self, action:  #selector(nextButton))
         view.addGestureRecognizer(gesture)

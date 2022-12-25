@@ -42,14 +42,14 @@ class Level2ViewController: UIViewController {
         nextKey += 1
         setTextAndColor(index: nextKey, target: letterView)
         setImage(index: nextKey, target: letterImageView)
-        playAudio(index: nextKey)
+        playAudio(index: nextKey, level: "level2")
   }
     
     @IBAction func resetButton(_ sender: Any) {
        letterView.text = letters[0]
         nextKey = 0
         setImage(index: 0, target: letterImageView)
-        playAudio(index: 0)
+        playAudio(index: 0, level: "level2")
     }
 
     // MARK: - View Life Cycle
@@ -105,7 +105,7 @@ class Level2ViewController: UIViewController {
     
     @objc func checkAction(sender : UITapGestureRecognizer) {
         // Do what you want
-        playAudio(index: nextKey)
+        playAudio(index: nextKey, level: "level2")
     }
     
     override func viewDidLoad() {

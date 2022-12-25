@@ -9,21 +9,20 @@ import Foundation
 import AVFoundation
 import UIKit
 
-let letterImagesAndSounds: [String] = Constants.Alphabets.English.letterImagesAndSounds
 let letters: [String] = Constants.Alphabets.English.letters
-let letterSounds: [String] = Constants.Alphabets.English.letters
+let letterImagesAndSounds: [String: [String]] = Constants.Alphabets.English.letterImagesAndSounds
 
 @available(iOS 15.0, *)
 let colors: [UIColor] = Constants.Alphabets.English.colors
 var player: AVAudioPlayer!
 
-func playAudio(index: Int){
+func playAudio(index: Int, level: String = "level1", audioType: String = "mp3"){
     guard (index >= 0) && (index <= 25) else {
         return;
     }
     
-    let choice = letterImagesAndSounds[index]
-    let audioPath = Bundle.main.path(forResource: choice, ofType: "mp3")
+    let choice = letterImagesAndSounds[level]?[index]
+    let audioPath = Bundle.main.path(forResource: choice, ofType: audioType)
     do {
         try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
         player.play()
@@ -32,23 +31,8 @@ func playAudio(index: Int){
     }
 }
 
-func playLetterAudio(index: Int) {
-    guard (index >= 0) && (index <= 25) else {
-        return;
-    }
-    
-    let choice = letterSounds[index]
-    let audioPath = Bundle.main.path(forResource: choice, ofType: "wav")
-    do {
-        try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
-        player.play()
-    } catch {
-        print("Something went wrong!!!")
-    }
-}
-
-func setImage(index: Int, target: UIImageView) {
-    target.image = UIImage(named: letterImagesAndSounds[index])
+func setImage(index: Int, target: UIImageView, level: String = "level2") {
+    target.image = UIImage(named: (letterImagesAndSounds[level]?[index])!)
 }
 
 @available(iOS 15.0, *)
