@@ -17,6 +17,10 @@ class Level3ViewController: UIViewController {
     
     var nextKey: Int = 0
     
+    @objc func playSound(_ sender: Any) {
+        playAudio(index: nextKey, level: "level2")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,7 +28,18 @@ class Level3ViewController: UIViewController {
          nextKey = 0
          setImage(index: 0, target: level3Image1, level: "level2")
          setImage(index: 0, target: level3Image2, level: "level3")
-         playAudio(index: 0, level: "level2")
-        
+         
+        playSound((Any).self)
+        addTapGestureFor(subview: level3Image1)
+        addTapGestureFor(subview: level3Image2)
     }
+    
+    func addTapGestureFor(subview: UIImageView){
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(playSound(_:)))
+        
+        subview.isUserInteractionEnabled = true
+
+        subview.addGestureRecognizer(tapGestureRecognizer)
+    }
+    
 }

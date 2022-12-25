@@ -24,7 +24,7 @@ class Level1ViewController: UIViewController {
             // Fallback on earlier versions
         }
         playAudio(index: nextKey, audioType: "wav")
-  }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
