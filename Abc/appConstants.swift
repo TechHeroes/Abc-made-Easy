@@ -44,17 +44,10 @@ struct Constants{
                     "umbrella","van","water","xylophone","yak","zebra"
                 ],
                 "level3": [
-                    "ant","balloon","car","duck","egg","flower","giraffe","hen","icecream","jellyfish","key","lemon","mango","onion","quiet","rat","spoon","train","unicorn","violin","watch","xmastree",
+                    "ant","balloon","car","duck","egg","flower","giraffe","hen","icecream","jellyfish","key","lemon","mango","nest","onion","pen","quiet","rat","spoon","train","unicorn","violin","watch","xmastree",
                     "yoyo","zoo"
                 ]
             ]
-            
-//            static let letterImagesAndSounds: [String] = [
-//                "aforapple", "bforball", "cforcat","dfordog","eforelephant","fforfish",
-//                "gforgoat","hforhorse","iforice","jforjuice","kforkite","lforlion","mformonkey",
-//                "nfornest","ofororange","pforparrot","qforqueen","rforrabbit","sforsun","tfortiger",
-//                "uforumbrella","vforvan","wforwater","xforxylophone","yforyak","zforzebra"
-//            ]
         }
     }
 }

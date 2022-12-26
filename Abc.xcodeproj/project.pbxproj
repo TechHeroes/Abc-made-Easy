@@ -37,6 +37,33 @@
 		89A03FF32950671900E5914C /* fish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FD92950671900E5914C /* fish.mp3 */; };
 		89A03FF42950671900E5914C /* sun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FDA2950671900E5914C /* sun.mp3 */; };
 		89A03FF52950671900E5914C /* orange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89A03FDB2950671900E5914C /* orange.mp3 */; };
+		89BA4A472959CFD20082D38A /* pen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A2D2959CFD10082D38A /* pen.wav */; };
+		89BA4A482959CFD20082D38A /* egg.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A2E2959CFD10082D38A /* egg.wav */; };
+		89BA4A492959CFD20082D38A /* watch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A2F2959CFD10082D38A /* watch.wav */; };
+		89BA4A4A2959CFD20082D38A /* giraffe.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A302959CFD10082D38A /* giraffe.wav */; };
+		89BA4A4B2959CFD20082D38A /* spoon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A312959CFD10082D38A /* spoon.wav */; };
+		89BA4A4C2959CFD20082D38A /* train.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A322959CFD10082D38A /* train.wav */; };
+		89BA4A4D2959CFD20082D38A /* quiet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A332959CFD10082D38A /* quiet.wav */; };
+		89BA4A4E2959CFD20082D38A /* car.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A342959CFD10082D38A /* car.wav */; };
+		89BA4A4F2959CFD20082D38A /* xmastree.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A352959CFD10082D38A /* xmastree.wav */; };
+		89BA4A502959CFD20082D38A /* jellyfish.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A362959CFD10082D38A /* jellyfish.wav */; };
+		89BA4A512959CFD20082D38A /* ant.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A372959CFD10082D38A /* ant.wav */; };
+		89BA4A522959CFD20082D38A /* flower.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A382959CFD10082D38A /* flower.wav */; };
+		89BA4A532959CFD20082D38A /* unicorn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A392959CFD10082D38A /* unicorn.wav */; };
+		89BA4A542959CFD20082D38A /* nose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A3A2959CFD10082D38A /* nose.wav */; };
+		89BA4A552959CFD20082D38A /* duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A3B2959CFD10082D38A /* duck.wav */; };
+		89BA4A562959CFD20082D38A /* zoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A3C2959CFD10082D38A /* zoo.wav */; };
+		89BA4A572959CFD20082D38A /* mango.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A3D2959CFD10082D38A /* mango.wav */; };
+		89BA4A582959CFD20082D38A /* violin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A3E2959CFD10082D38A /* violin.wav */; };
+		89BA4A592959CFD20082D38A /* lemon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A3F2959CFD20082D38A /* lemon.wav */; };
+		89BA4A5A2959CFD20082D38A /* onion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A402959CFD20082D38A /* onion.wav */; };
+		89BA4A5B2959CFD20082D38A /* key.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A412959CFD20082D38A /* key.wav */; };
+		89BA4A5C2959CFD20082D38A /* rat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A422959CFD20082D38A /* rat.wav */; };
+		89BA4A5D2959CFD20082D38A /* balloon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A432959CFD20082D38A /* balloon.wav */; };
+		89BA4A5E2959CFD20082D38A /* yoyo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A442959CFD20082D38A /* yoyo.wav */; };
+		89BA4A5F2959CFD20082D38A /* hen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A452959CFD20082D38A /* hen.wav */; };
+		89BA4A602959CFD20082D38A /* icecream.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89BA4A462959CFD20082D38A /* icecream.wav */; };
+		89BA4A622959F5110082D38A /* SubclassedTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA4A612959F5110082D38A /* SubclassedTapGestureRecognizer.swift */; };
 		89C19214294725480092A233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C19213294725480092A233 /* AppDelegate.swift */; };
 		89C19216294725480092A233 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C19215294725480092A233 /* SceneDelegate.swift */; };
 		89C19218294725480092A233 /* Level2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C19217294725480092A233 /* Level2ViewController.swift */; };
@@ -123,6 +150,33 @@
 		89A03FD92950671900E5914C /* fish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fish.mp3; sourceTree = "<group>"; };
 		89A03FDA2950671900E5914C /* sun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sun.mp3; sourceTree = "<group>"; };
 		89A03FDB2950671900E5914C /* orange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orange.mp3; sourceTree = "<group>"; };
+		89BA4A2D2959CFD10082D38A /* pen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pen.wav; sourceTree = "<group>"; };
+		89BA4A2E2959CFD10082D38A /* egg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = egg.wav; sourceTree = "<group>"; };
+		89BA4A2F2959CFD10082D38A /* watch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = watch.wav; sourceTree = "<group>"; };
+		89BA4A302959CFD10082D38A /* giraffe.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = giraffe.wav; sourceTree = "<group>"; };
+		89BA4A312959CFD10082D38A /* spoon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spoon.wav; sourceTree = "<group>"; };
+		89BA4A322959CFD10082D38A /* train.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = train.wav; sourceTree = "<group>"; };
+		89BA4A332959CFD10082D38A /* quiet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = quiet.wav; sourceTree = "<group>"; };
+		89BA4A342959CFD10082D38A /* car.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = car.wav; sourceTree = "<group>"; };
+		89BA4A352959CFD10082D38A /* xmastree.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = xmastree.wav; sourceTree = "<group>"; };
+		89BA4A362959CFD10082D38A /* jellyfish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jellyfish.wav; sourceTree = "<group>"; };
+		89BA4A372959CFD10082D38A /* ant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ant.wav; sourceTree = "<group>"; };
+		89BA4A382959CFD10082D38A /* flower.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flower.wav; sourceTree = "<group>"; };
+		89BA4A392959CFD10082D38A /* unicorn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = unicorn.wav; sourceTree = "<group>"; };
+		89BA4A3A2959CFD10082D38A /* nose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nose.wav; sourceTree = "<group>"; };
+		89BA4A3B2959CFD10082D38A /* duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = duck.wav; sourceTree = "<group>"; };
+		89BA4A3C2959CFD10082D38A /* zoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = zoo.wav; sourceTree = "<group>"; };
+		89BA4A3D2959CFD10082D38A /* mango.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mango.wav; sourceTree = "<group>"; };
+		89BA4A3E2959CFD10082D38A /* violin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = violin.wav; sourceTree = "<group>"; };
+		89BA4A3F2959CFD20082D38A /* lemon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lemon.wav; sourceTree = "<group>"; };
+		89BA4A402959CFD20082D38A /* onion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = onion.wav; sourceTree = "<group>"; };
+		89BA4A412959CFD20082D38A /* key.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = key.wav; sourceTree = "<group>"; };
+		89BA4A422959CFD20082D38A /* rat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rat.wav; sourceTree = "<group>"; };
+		89BA4A432959CFD20082D38A /* balloon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = balloon.wav; sourceTree = "<group>"; };
+		89BA4A442959CFD20082D38A /* yoyo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yoyo.wav; sourceTree = "<group>"; };
+		89BA4A452959CFD20082D38A /* hen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hen.wav; sourceTree = "<group>"; };
+		89BA4A462959CFD20082D38A /* icecream.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = icecream.wav; sourceTree = "<group>"; };
+		89BA4A612959F5110082D38A /* SubclassedTapGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubclassedTapGestureRecognizer.swift; sourceTree = "<group>"; };
 		89C19210294725480092A233 /* Abc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C19213294725480092A233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89C19215294725480092A233 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -194,6 +248,7 @@
 		89A03FC0295066C200E5914C /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				89BA4A2C2959CFB70082D38A /* Level3 */,
 				89C2700B295606C60002DAE5 /* Level1 */,
 				89A03FC1295066C900E5914C /* Level2 */,
 			);
@@ -233,9 +288,43 @@
 			path = Level2;
 			sourceTree = "<group>";
 		};
+		89BA4A2C2959CFB70082D38A /* Level3 */ = {
+			isa = PBXGroup;
+			children = (
+				89BA4A372959CFD10082D38A /* ant.wav */,
+				89BA4A432959CFD20082D38A /* balloon.wav */,
+				89BA4A342959CFD10082D38A /* car.wav */,
+				89BA4A3B2959CFD10082D38A /* duck.wav */,
+				89BA4A2E2959CFD10082D38A /* egg.wav */,
+				89BA4A382959CFD10082D38A /* flower.wav */,
+				89BA4A302959CFD10082D38A /* giraffe.wav */,
+				89BA4A452959CFD20082D38A /* hen.wav */,
+				89BA4A462959CFD20082D38A /* icecream.wav */,
+				89BA4A362959CFD10082D38A /* jellyfish.wav */,
+				89BA4A412959CFD20082D38A /* key.wav */,
+				89BA4A3F2959CFD20082D38A /* lemon.wav */,
+				89BA4A3D2959CFD10082D38A /* mango.wav */,
+				89BA4A3A2959CFD10082D38A /* nose.wav */,
+				89BA4A402959CFD20082D38A /* onion.wav */,
+				89BA4A2D2959CFD10082D38A /* pen.wav */,
+				89BA4A332959CFD10082D38A /* quiet.wav */,
+				89BA4A422959CFD20082D38A /* rat.wav */,
+				89BA4A312959CFD10082D38A /* spoon.wav */,
+				89BA4A322959CFD10082D38A /* train.wav */,
+				89BA4A392959CFD10082D38A /* unicorn.wav */,
+				89BA4A3E2959CFD10082D38A /* violin.wav */,
+				89BA4A2F2959CFD10082D38A /* watch.wav */,
+				89BA4A352959CFD10082D38A /* xmastree.wav */,
+				89BA4A442959CFD20082D38A /* yoyo.wav */,
+				89BA4A3C2959CFD10082D38A /* zoo.wav */,
+			);
+			path = Level3;
+			sourceTree = "<group>";
+		};
 		89C19207294725480092A233 = {
 			isa = PBXGroup;
 			children = (
+				89BA4A612959F5110082D38A /* SubclassedTapGestureRecognizer.swift */,
 				89C19212294725480092A233 /* Abc */,
 				89C192292947254A0092A233 /* AbcTests */,
 				89C192332947254A0092A233 /* AbcUITests */,
@@ -429,21 +518,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C2703F295606ED0002DAE5 /* H.wav in Resources */,
+				89BA4A522959CFD20082D38A /* flower.wav in Resources */,
+				89BA4A582959CFD20082D38A /* violin.wav in Resources */,
 				89C2703A295606ED0002DAE5 /* W.wav in Resources */,
 				89C27038295606ED0002DAE5 /* O.wav in Resources */,
+				89BA4A4D2959CFD20082D38A /* quiet.wav in Resources */,
 				89C27029295606ED0002DAE5 /* N.wav in Resources */,
+				89BA4A542959CFD20082D38A /* nose.wav in Resources */,
 				89C192202947254A0092A233 /* LaunchScreen.storyboard in Resources */,
 				89C27039295606ED0002DAE5 /* L.wav in Resources */,
+				89BA4A472959CFD20082D38A /* pen.wav in Resources */,
 				89A03FE82950671900E5914C /* queen.mp3 in Resources */,
+				89BA4A5D2959CFD20082D38A /* balloon.wav in Resources */,
 				89A03FE32950671900E5914C /* kite.mp3 in Resources */,
 				89C27036295606ED0002DAE5 /* U.wav in Resources */,
+				89BA4A562959CFD20082D38A /* zoo.wav in Resources */,
 				89A03FEE2950671900E5914C /* rabbit.mp3 in Resources */,
 				89A03FEC2950671900E5914C /* cat.mp3 in Resources */,
 				899A4763295239590017CC7E /* nest.mp3 in Resources */,
 				89A03FDD2950671900E5914C /* dog.mp3 in Resources */,
 				89A03FE52950671900E5914C /* elephant.mp3 in Resources */,
+				89BA4A5B2959CFD20082D38A /* key.wav in Resources */,
 				89A03FE12950671900E5914C /* horse.mp3 in Resources */,
 				89A03FDC2950671900E5914C /* apple.mp3 in Resources */,
+				89BA4A4E2959CFD20082D38A /* car.wav in Resources */,
 				89C27034295606ED0002DAE5 /* F.wav in Resources */,
 				89C27030295606ED0002DAE5 /* J.wav in Resources */,
 				89C27031295606ED0002DAE5 /* T.wav in Resources */,
@@ -454,34 +552,51 @@
 				89A03FE92950671900E5914C /* umbrella.mp3 in Resources */,
 				899A4764295239590017CC7E /* parrot.mp3 in Resources */,
 				89C2702F295606ED0002DAE5 /* P.wav in Resources */,
+				89BA4A482959CFD20082D38A /* egg.wav in Resources */,
 				89A03FF22950671900E5914C /* water.mp3 in Resources */,
 				89C27033295606ED0002DAE5 /* D.wav in Resources */,
+				89BA4A592959CFD20082D38A /* lemon.wav in Resources */,
 				89A03FEB2950671900E5914C /* ice.mp3 in Resources */,
 				89A03FEA2950671900E5914C /* lion.mp3 in Resources */,
 				89A03FE22950671900E5914C /* tiger.mp3 in Resources */,
 				89A03FE42950671900E5914C /* van.mp3 in Resources */,
+				89BA4A512959CFD20082D38A /* ant.wav in Resources */,
 				89A03FE02950671900E5914C /* juice.mp3 in Resources */,
 				89A03FF02950671900E5914C /* zebra.mp3 in Resources */,
+				89BA4A5F2959CFD20082D38A /* hen.wav in Resources */,
 				89A03FE72950671900E5914C /* ball.mp3 in Resources */,
 				89C2702A295606ED0002DAE5 /* Y.wav in Resources */,
+				89BA4A5C2959CFD20082D38A /* rat.wav in Resources */,
+				89BA4A492959CFD20082D38A /* watch.wav in Resources */,
 				89A03FF12950671900E5914C /* xylophone.mp3 in Resources */,
+				89BA4A552959CFD20082D38A /* duck.wav in Resources */,
+				89BA4A4B2959CFD20082D38A /* spoon.wav in Resources */,
 				89C2703E295606ED0002DAE5 /* Q.wav in Resources */,
 				89C1921D2947254A0092A233 /* Assets.xcassets in Resources */,
 				89A03FF42950671900E5914C /* sun.mp3 in Resources */,
 				89C27032295606ED0002DAE5 /* G.wav in Resources */,
+				89BA4A532959CFD20082D38A /* unicorn.wav in Resources */,
+				89BA4A502959CFD20082D38A /* jellyfish.wav in Resources */,
 				89C1921B294725480092A233 /* Main.storyboard in Resources */,
 				89C27037295606ED0002DAE5 /* X.wav in Resources */,
+				89BA4A4F2959CFD20082D38A /* xmastree.wav in Resources */,
 				89C2702D295606ED0002DAE5 /* B.wav in Resources */,
 				89C2702E295606ED0002DAE5 /* V.wav in Resources */,
+				89BA4A5E2959CFD20082D38A /* yoyo.wav in Resources */,
 				89C2703B295606ED0002DAE5 /* K.wav in Resources */,
 				89C2703C295606ED0002DAE5 /* Z.wav in Resources */,
 				89C27026295606ED0002DAE5 /* A.wav in Resources */,
+				89BA4A4C2959CFD20082D38A /* train.wav in Resources */,
+				89BA4A572959CFD20082D38A /* mango.wav in Resources */,
 				89A03FEF2950671900E5914C /* yak.mp3 in Resources */,
 				89C27027295606ED0002DAE5 /* R.wav in Resources */,
 				89A03FDE2950671900E5914C /* goat.mp3 in Resources */,
 				89C2702B295606ED0002DAE5 /* E.wav in Resources */,
 				89A03FF52950671900E5914C /* orange.mp3 in Resources */,
 				89A03FF32950671900E5914C /* fish.mp3 in Resources */,
+				89BA4A602959CFD20082D38A /* icecream.wav in Resources */,
+				89BA4A4A2959CFD20082D38A /* giraffe.wav in Resources */,
+				89BA4A5A2959CFD20082D38A /* onion.wav in Resources */,
 				89A03FE62950671900E5914C /* monkey.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +628,7 @@
 				89C19214294725480092A233 /* AppDelegate.swift in Sources */,
 				89D4F7832954DD2C005D846D /* Level1ViewController.swift in Sources */,
 				8951F475295731DC00420422 /* Level3ViewController.swift in Sources */,
+				89BA4A622959F5110082D38A /* SubclassedTapGestureRecognizer.swift in Sources */,
 				89C19216294725480092A233 /* SceneDelegate.swift in Sources */,
 				8983D995294A14CD00FFAE1D /* appConstants.swift in Sources */,
 			);

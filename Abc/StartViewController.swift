@@ -16,18 +16,11 @@ class StartViewController: UIViewController {
     func setFontProperties(btn: UIButton) {
         btn.titleLabel?.minimumScaleFactor = 0.5
         btn.titleLabel!.textAlignment = .left
-//        btn.titleLabel?.font.pointSize = 0.5
-//        btn.titleLabel?.numberOfLines = 0
         btn.titleLabel?.adjustsFontSizeToFitWidth = true
     }
     
     override func viewDidLoad() {
-//        setFontProperties(btn: lev1Button)
-//        setFontProperties(btn: lev2Button)
-        
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func level1Button(_ sender: UIButton) {

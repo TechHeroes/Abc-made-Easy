@@ -11,7 +11,7 @@ class Level1ViewController: UIViewController {
     @IBOutlet weak var L1letterView: UITextView!
     var nextKey = 0
     
-    @objc func nextButton(_ sender: Any) {
+    @objc func nextCard(_ sender: Any) {
         
         if nextKey > 24 {
             nextKey = 24
@@ -31,9 +31,8 @@ class Level1ViewController: UIViewController {
         L1letterView.text = letters[0]
         playAudio(index: nextKey, audioType: "wav")
         // Handle tap event
-        let gesture = UITapGestureRecognizer(target: self, action:  #selector(nextButton))
+        let gesture = UITapGestureRecognizer(target: self, action:  #selector(nextCard))
         view.addGestureRecognizer(gesture)
-        // Do any additional setup after loading the view.
     }
     
 

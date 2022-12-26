@@ -24,11 +24,15 @@ func playAudio(index: Int, level: String = "level1", audioType: String = "mp3"){
     let choice = letterImagesAndSounds[level]?[index]
     let audioPath = Bundle.main.path(forResource: choice, ofType: audioType)
     do {
-        try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
-        player.play()
+        player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
+        player?.play()
     } catch {
         print("Something went wrong!!!")
     }
+}
+
+func afterAudioDidFinishPlaying() {
+    
 }
 
 func setImage(index: Int, target: UIImageView, level: String = "level2") {
