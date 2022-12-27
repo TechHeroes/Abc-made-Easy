@@ -42,7 +42,7 @@ struct Constants{
                     "umbrella","van","water","xylophone","yak","zebra"
                 ],
                 "level3": [
-                    "ant","balloon","car","duck","egg","flower","giraffe","hen","icecream","jellyfish","key","lemon","mango","nest","onion","pen","quiet","rat","spoon","train","unicorn","violin","watch","xmastree",
+                    "ant","balloon","car","duck","egg","flower","giraffe","hen","icecream","jellyfish","key","lemon","mango","nose","onion","pen","quiet","rat","spoon","train","unicorn","violin","watch","xmastree",
                     "yoyo","zoo"
                 ]
             ]
