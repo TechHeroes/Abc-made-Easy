@@ -17,12 +17,10 @@ struct Constants{
                 "Q","R","S","T","U","V",
                 "W","X","Y","Z"
             ]
-            @available(iOS 15.0, *)
             static let colors: [UIColor] = [
                 .systemPink,
                 .systemRed,
                 .systemBlue,
-                .systemCyan,
                 .systemOrange,
                 .systemIndigo,
                 .systemPurple,

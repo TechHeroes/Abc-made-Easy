@@ -12,28 +12,22 @@ class Level1ViewController: UIViewController {
     var nextKey = 0
     
     @objc func nextCard(_ sender: Any) {
-        
         if nextKey > 24 {
             nextKey = 24
         }
-        
         nextKey += 1
-        if #available(iOS 15.0, *) {
-            setTextAndColor(index: nextKey, target: L1letterView)
-        } else {
-            // Fallback on earlier versions
-        }
-        playAudio(index: nextKey, audioType: "wav")
+        setTextAndSound(index: nextKey, target: L1letterView)
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        L1letterView.text = letters[0]
-        playAudio(index: nextKey, audioType: "wav")
-        // Handle tap event
+    // Handle tap event
+    func addTapEvent(){
         let gesture = UITapGestureRecognizer(target: self, action:  #selector(nextCard))
         view.addGestureRecognizer(gesture)
     }
     
-
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setTextAndSound(index: nextKey, target: L1letterView)
+        addTapEvent()
+    }
 }

@@ -7,8 +7,6 @@
 
 import UIKit
 
-@available(iOS 15.0, *)
-@available(iOS 15.0, *)
 class Level2ViewController: UIViewController {
 
     
@@ -18,38 +16,32 @@ class Level2ViewController: UIViewController {
     @IBOutlet weak var letterView: UITextView!
     @IBOutlet weak var letterImageView: UIImageView!
     
+    var nextKey: Int = 0
     
-    var nextKey = 1
-
-    
-    @IBAction func prevButton(_ sender: Any) {
+    @IBAction func prevCard(_ sender: Any) {
         if nextKey < 1 {
             nextKey = 1
         }
-        
         nextKey -= 1
-        setTextAndColor(index: nextKey, target: letterView)
-        setImage(index: nextKey, target: letterImageView)
-        playAudio(index: nextKey)
+        setTextImageSound()
    }
     
-    @IBAction func nextButton(_ sender: Any) {
-        
-        if nextKey > 24 {
-            nextKey = 24
-        }
-        
-        nextKey += 1
+    func setTextImageSound() {
         setTextAndColor(index: nextKey, target: letterView)
         setImage(index: nextKey, target: letterImageView)
         playAudio(index: nextKey, level: "level2")
-  }
+    }
+    
+    @IBAction func nextCard(_ sender: Any) {
+        if nextKey > 24 {
+            nextKey = 24
+        }
+        nextKey += 1
+        setTextImageSound()
+    }
     
     @IBAction func resetButton(_ sender: Any) {
-       letterView.text = letters[0]
-        nextKey = 0
-        setImage(index: 0, target: letterImageView)
-        playAudio(index: 0, level: "level2")
+       setTextImageSound()
     }
 
     // MARK: - View Life Cycle
@@ -70,13 +62,13 @@ class Level2ViewController: UIViewController {
 
         switch sender.direction {
         case .up:
-            nextButton((Any).self)
+            nextCard((Any).self)
         case .down:
-            prevButton((Any).self)
+            prevCard((Any).self)
         case .left:
-            nextButton((Any).self)
+            nextCard((Any).self)
         case .right:
-            prevButton((Any).self)
+            prevCard((Any).self)
         default:
             break
         }
@@ -108,25 +100,23 @@ class Level2ViewController: UIViewController {
         playAudio(index: nextKey, level: "level2")
     }
     
+    func addTapEvent() {
+        let gesture = UITapGestureRecognizer(target: self, action:  #selector(nextCard))
+        view.addGestureRecognizer(gesture)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .white
-        letterView.backgroundColor = .white
-        
-//        restartButtonLabel.setTitle("Restart", for: .normal)
-        resetButton((Any).self)
+//        view.backgroundColor = .white
+//        letterView.backgroundColor = .white
         
         view.addSubview(letterImageView)
         view.addSubview(swipeableView)
         
         // Handle swipe events
         handleSwipeGestures()
-
-        // Handle tap event
-        let gesture = UITapGestureRecognizer(target: self, action:  #selector(nextButton))
-        view.addGestureRecognizer(gesture)
+        
+        setTextImageSound()
+        addTapEvent()
     }
-
 }
-

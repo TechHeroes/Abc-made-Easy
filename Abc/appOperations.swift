@@ -12,7 +12,6 @@ import UIKit
 let letters: [String] = Constants.Alphabets.English.letters
 let letterImagesAndSounds: [String: [String]] = Constants.Alphabets.English.letterImagesAndSounds
 
-@available(iOS 15.0, *)
 let colors: [UIColor] = Constants.Alphabets.English.colors
 var player: AVAudioPlayer!
 
@@ -31,18 +30,17 @@ func playAudio(index: Int, level: String = "level1", audioType: String = "mp3"){
     }
 }
 
-func afterAudioDidFinishPlaying() {
-    
-}
-
 func setImage(index: Int, target: UIImageView, level: String = "level2") {
     target.image = UIImage(named: (letterImagesAndSounds[level]?[index])!)
 }
 
-@available(iOS 15.0, *)
 func setTextAndColor(index: Int, target: UITextView) {
     target.text = letters[index]
     target.textColor = colors.randomElement()
 }
 
+func setTextAndSound(index: Int, target: UITextView) {
+    setTextAndColor(index: index, target: target)
+    playAudio(index: index, audioType: "wav")
+}
 
