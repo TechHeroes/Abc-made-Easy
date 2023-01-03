@@ -22,6 +22,10 @@ class Level3ViewController: UIViewController {
         }
         nextKey += 1
         setTextAndImages()
+        
+        if player.isPlaying {
+            player.stop()
+        }
     }
     
     func addTapGestureFor(subview: UIImageView, level: String, audioType: String){
@@ -45,6 +49,17 @@ class Level3ViewController: UIViewController {
         setTextAndColor(index: nextKey, target: letterView)
         setImage(index: nextKey, target: level3Image1, level: "level2")
         setImage(index: nextKey, target: level3Image2, level: "level3")
+    }
+    
+    override func willMove(toParent parent: UIViewController?)
+    {
+        super.willMove(toParent: parent)
+        if parent == nil
+        {
+            if player.isPlaying {
+                player.stop()
+            }
+        }
     }
     
     override func viewDidLoad() {

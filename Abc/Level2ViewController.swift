@@ -105,6 +105,17 @@ class Level2ViewController: UIViewController {
         view.addGestureRecognizer(gesture)
     }
     
+    override func willMove(toParent parent: UIViewController?)
+    {
+        super.willMove(toParent: parent)
+        if parent == nil
+        {
+            if player.isPlaying {
+                player.stop()
+            }
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 //        view.backgroundColor = .white

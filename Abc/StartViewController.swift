@@ -21,6 +21,7 @@ class StartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.backButtonTitle = "Back"
     }
     
     @IBAction func level1Button(_ sender: UIButton) {
