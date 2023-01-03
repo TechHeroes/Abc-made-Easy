@@ -110,8 +110,8 @@ class Level2ViewController: UIViewController {
         super.willMove(toParent: parent)
         if parent == nil
         {
-            if player.isPlaying {
-                player.stop()
+            if let playing = player?.isPlaying {
+                player?.stop()
             }
         }
     }
@@ -119,7 +119,7 @@ class Level2ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        view.backgroundColor = .white
-//        letterView.backgroundColor = .white
+        letterView.backgroundColor = .white
         
         view.addSubview(letterImageView)
         view.addSubview(swipeableView)

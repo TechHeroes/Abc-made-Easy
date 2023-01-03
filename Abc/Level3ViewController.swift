@@ -23,8 +23,8 @@ class Level3ViewController: UIViewController {
         nextKey += 1
         setTextAndImages()
         
-        if player.isPlaying {
-            player.stop()
+        if let playing = player?.isPlaying {
+            player?.stop()
         }
     }
     
@@ -56,15 +56,15 @@ class Level3ViewController: UIViewController {
         super.willMove(toParent: parent)
         if parent == nil
         {
-            if player.isPlaying {
-                player.stop()
+            if let playing = player?.isPlaying {
+                player?.stop()
             }
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        letterView.backgroundColor = .white
         setTextAndImages()
         addTapEvent()
         addTapGestureFor(subview: level3Image1, level: "level2", audioType: "mp3")

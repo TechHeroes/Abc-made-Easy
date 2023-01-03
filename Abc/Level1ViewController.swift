@@ -30,8 +30,8 @@ class Level1ViewController: UIViewController {
         super.willMove(toParent: parent)
         if parent == nil
         {
-            if player.isPlaying {
-                player.stop()
+            if let playing = player?.isPlaying {
+                player?.stop()
             }
         }
     }

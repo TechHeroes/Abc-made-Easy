@@ -13,6 +13,8 @@ class StartViewController: UIViewController {
     
     @IBOutlet weak var lev2Button: UIButton!
     
+    @IBOutlet weak var lev3Button: UIButton!
+    
     func setFontProperties(btn: UIButton) {
         btn.titleLabel?.minimumScaleFactor = 0.5
         btn.titleLabel!.textAlignment = .left
@@ -22,6 +24,17 @@ class StartViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.backButtonTitle = "Back"
+        if #available(iOS 15.0, *) {
+//            configureButtons()
+        }
+    }
+    
+    @available(iOS 15.0, *)
+    func configureButtons() {
+        lev1Button.configuration = .tinted()
+        lev1Button.configuration?.baseForegroundColor = .white
+        lev1Button.configuration?.baseBackgroundColor = .systemPink
+        
     }
     
     @IBAction func level1Button(_ sender: UIButton) {
