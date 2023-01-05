@@ -15,12 +15,8 @@ class Level3ViewController: EventHandler {
     
     var nextKey: Int = 0
 
-    
     override func nextCard(_ sender: Any) {
-        if nextKey > 24 {
-            nextKey = 24
-        }
-        nextKey += 1
+        nextKey = (nextKey + 1) % letterCount
         setTextAndImages()
         stopAudioIfPlaying()
     }

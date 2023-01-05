@@ -21,7 +21,7 @@ class Level2ViewController: EventHandler {
         if nextKey < 1 {
             nextKey = 1
         }
-        nextKey -= 1
+        nextKey = (nextKey - 1) % letterCount
         setTextImageSound()
    }
     
@@ -32,10 +32,7 @@ class Level2ViewController: EventHandler {
     }
     
     override func nextCard(_ sender: Any) {
-        if nextKey > 24 {
-            nextKey = 24
-        }
-        nextKey += 1
+        nextKey = (nextKey + 1) % letterCount
         setTextImageSound()
     }
     

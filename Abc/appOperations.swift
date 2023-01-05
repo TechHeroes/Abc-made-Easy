@@ -14,6 +14,7 @@ let letterImagesAndSounds: [String: [String]] = Constants.Alphabets.English.lett
 
 let colors: [UIColor] = Constants.Alphabets.English.colors
 var player: AVAudioPlayer!
+let letterCount = Constants.Alphabets.English.letters.count
 
 func playAudio(index: Int, level: String = "level1", audioType: String = "mp3"){
     guard (index >= 0) && (index <= 25) else {
