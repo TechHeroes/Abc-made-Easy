@@ -7,8 +7,7 @@
 
 import UIKit
 
-class Level2ViewController: UIViewController {
-
+class Level2ViewController: EventHandler {
     
     @IBOutlet weak var prevButtonLabel: UIButton!
     @IBOutlet weak var nextButtonLabel: UIButton!
@@ -32,7 +31,7 @@ class Level2ViewController: UIViewController {
         playAudio(index: nextKey, level: "level2")
     }
     
-    @IBAction func nextCard(_ sender: Any) {
+    override func nextCard(_ sender: Any) {
         if nextKey > 24 {
             nextKey = 24
         }
@@ -98,22 +97,6 @@ class Level2ViewController: UIViewController {
     @objc func checkAction(sender : UITapGestureRecognizer) {
         // Do what you want
         playAudio(index: nextKey, level: "level2")
-    }
-    
-    func addTapEvent() {
-        let gesture = UITapGestureRecognizer(target: self, action:  #selector(nextCard))
-        view.addGestureRecognizer(gesture)
-    }
-    
-    override func willMove(toParent parent: UIViewController?)
-    {
-        super.willMove(toParent: parent)
-        if parent == nil
-        {
-            if let playing = player?.isPlaying {
-                player?.stop()
-            }
-        }
     }
     
     override func viewDidLoad() {

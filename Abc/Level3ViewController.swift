@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Level3ViewController: UIViewController {
+class Level3ViewController: EventHandler {
 
     @IBOutlet weak var letterView: UITextView!
     @IBOutlet weak var level3Image1: UIImageView!
@@ -16,16 +16,13 @@ class Level3ViewController: UIViewController {
     var nextKey: Int = 0
 
     
-    @objc func nextCard(_ sender: Any) {
+    override func nextCard(_ sender: Any) {
         if nextKey > 24 {
             nextKey = 24
         }
         nextKey += 1
         setTextAndImages()
-        
-        if let playing = player?.isPlaying {
-            player?.stop()
-        }
+        stopAudioIfPlaying()
     }
     
     func addTapGestureFor(subview: UIImageView, level: String, audioType: String){
@@ -39,27 +36,11 @@ class Level3ViewController: UIViewController {
         let level = sender.level, audioType = sender.audioType
         playAudio(index: nextKey, level: level, audioType: audioType)
     }
-    
-    func addTapEvent() {
-        let gesture = UITapGestureRecognizer(target: self, action:  #selector(nextCard))
-        view.addGestureRecognizer(gesture)
-    }
-    
+
     func setTextAndImages() {
         setTextAndColor(index: nextKey, target: letterView)
         setImage(index: nextKey, target: level3Image1, level: "level2")
         setImage(index: nextKey, target: level3Image2, level: "level3")
-    }
-    
-    override func willMove(toParent parent: UIViewController?)
-    {
-        super.willMove(toParent: parent)
-        if parent == nil
-        {
-            if let playing = player?.isPlaying {
-                player?.stop()
-            }
-        }
     }
     
     override func viewDidLoad() {
