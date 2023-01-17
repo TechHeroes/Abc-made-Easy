@@ -42,6 +42,6 @@ func setTextAndColor(index: Int, target: UITextView) {
 
 func setTextAndSound(index: Int, target: UITextView) {
     setTextAndColor(index: index, target: target)
-    playAudio(index: index, audioType: "wav")
+    playAudio(index: index)
 }
 

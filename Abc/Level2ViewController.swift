@@ -17,7 +17,7 @@ class Level2ViewController: EventHandler {
     
     var nextKey: Int = 0
     
-    @IBAction func prevCard(_ sender: Any) {
+    override func prevCard(_ sender: Any) {
         if nextKey < 1 {
             nextKey = 1
         }
@@ -39,58 +39,7 @@ class Level2ViewController: EventHandler {
     @IBAction func resetButton(_ sender: Any) {
        setTextImageSound()
     }
-
-    // MARK: - View Life Cycle
-    let swipeableView: UIView = {
-       // Initialize View
-       let view = UIView(frame: CGRect(origin: .zero,
-                                       size: CGSize(width: 400, height: 600.0)))
-
-       // Configure View
-       view.translatesAutoresizingMaskIntoConstraints = false
-
-       return view
-   }()
-    
-    @objc func didSwipe(_ sender: UISwipeGestureRecognizer) {
-        // Current Frame
-        let frame = swipeableView.frame
-
-        switch sender.direction {
-        case .up:
-            nextCard((Any).self)
-        case .down:
-            prevCard((Any).self)
-        case .left:
-            nextCard((Any).self)
-        case .right:
-            prevCard((Any).self)
-        default:
-            break
-        }
-        UIView.animate(withDuration: 0.25) {
-            self.swipeableView.frame = frame
-        }
-    }
-    
-    func createSwipeGestureRecognizer(for direction: UISwipeGestureRecognizer.Direction) -> UISwipeGestureRecognizer {
-       // Initialize Swipe Gesture Recognizer
-       let swipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(didSwipe(_:)))
-
-       // Configure Swipe Gesture Recognizer
-       swipeGestureRecognizer.direction = direction
-
-       return swipeGestureRecognizer
-   }
-
-    func handleSwipeGestures() -> Void {
-       // Create Swipe Gesture Recognizers
-       swipeableView.addGestureRecognizer(createSwipeGestureRecognizer(for: .up))
-       swipeableView.addGestureRecognizer(createSwipeGestureRecognizer(for: .down))
-       swipeableView.addGestureRecognizer(createSwipeGestureRecognizer(for: .left))
-       swipeableView.addGestureRecognizer(createSwipeGestureRecognizer(for: .right))
-   }
-    
+  
     @objc func checkAction(sender : UITapGestureRecognizer) {
         // Do what you want
         playAudio(index: nextKey, level: "level2")

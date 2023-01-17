@@ -15,6 +15,14 @@ class Level3ViewController: EventHandler {
     
     var nextKey: Int = 0
 
+    override func prevCard(_ sender: Any) {
+        if nextKey < 1 {
+            nextKey = 1
+        }
+        nextKey = (nextKey - 1) % letterCount
+        setTextAndImages()
+    }
+    
     override func nextCard(_ sender: Any) {
         nextKey = (nextKey + 1) % letterCount
         setTextAndImages()
@@ -41,10 +49,19 @@ class Level3ViewController: EventHandler {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         letterView.backgroundColor = .white
         setTextAndImages()
+        
+//        view.addSubview(swipeableView)
+
         addTapEvent()
+
+        // Handle swipe events
+//        handleSwipeGestures()
+        
         addTapGestureFor(subview: level3Image1, level: "level2", audioType: "mp3")
         addTapGestureFor(subview: level3Image2, level: "level3", audioType: "wav")
+
     }
 }
