@@ -29,7 +29,7 @@ class Level3ViewController: EventHandler {
         stopAudioIfPlaying()
     }
     
-    func addTapGestureFor(subview: UIImageView, level: String, audioType: String){
+    func addTapGestureFor(subview: UIImageView, level: String, audioType: String = "mp3"){
         let gesture = SubclassedTapGestureRecognizer(target: self, action:  #selector(playSound(_:)), level: level, audioType: audioType)
         subview.isUserInteractionEnabled = true
         subview.addGestureRecognizer(gesture)
@@ -58,10 +58,10 @@ class Level3ViewController: EventHandler {
         addTapEvent()
 
         // Handle swipe events
-//        handleSwipeGestures()
+//        handleSwipeGestures()
         
-        addTapGestureFor(subview: level3Image1, level: "level2", audioType: "mp3")
-        addTapGestureFor(subview: level3Image2, level: "level3", audioType: "wav")
+        addTapGestureFor(subview: level3Image1, level: "level4")
+        addTapGestureFor(subview: level3Image2, level: "level5")
 
     }
 }

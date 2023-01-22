@@ -44,6 +44,16 @@ struct Constants{
                 "level3": [
                     "ant","balloon","car","duck","egg","flower","giraffe","hen","icecream","jellyfish","key","lemon","mango","nose","onion","pen","quiet","rat","spoon","train","unicorn","violin","watch","xmastree",
                     "yoyo","zoo"
+                ],
+                "level4": [
+                    "aaapple", "bababall", "cacacat","dadadog","ehehelephant","fafafish",
+                    "gagagoat","hahahorse","aaice","jajajuice","kakakite","lalalion","mamamonkey",
+                    "nananest","ooorange","papaparrot","kakaqueen","rararabbit","sasasun","tatatiger",
+                    "uhuhumbrella","vavavan","wawawater","zazaxylophone","yayayak","zazazebra"
+                ],
+                "level5": [
+                    "aaant","bababalloon","cacacar","dadaduck","ahahegg","fafaflowers","jajagiraffe","hahahen","ahahicecream","jajajellyfish","kakakey","lalalemon","mamamango","nananose","ooonion","papapen","kakaquiet","rararat","esesspoon","tatatrain","uuunicorn","vavaviolin","wawawatch","exexxmastree",
+                    "yayayoyo","zazazoo"
                 ]
             ]
         }
