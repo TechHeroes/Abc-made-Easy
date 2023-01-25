@@ -45,3 +45,28 @@ func setTextAndSound(index: Int, target: UITextView) {
     playAudio(index: index)
 }
 
+func updateTextFont(textView: UITextView) {
+    if (textView.text.isEmpty || textView.bounds.size.equalTo(CGSize.zero)) {
+        return;
+    }
+
+    let textViewSize = textView.frame.size;
+    let fixedWidth = textViewSize.width;
+    let expectSize = textView.sizeThatFits(CGSize(width: fixedWidth, height: CGFloat(MAXFLOAT)));
+
+    var expectFont = textView.font;
+    if (expectSize.height > textViewSize.height) {
+        while (textView.sizeThatFits(CGSize(width: fixedWidth, height: CGFloat(MAXFLOAT))).height > textViewSize.height) {
+            expectFont = textView.font!.withSize(textView.font!.pointSize - 1)
+            textView.font = expectFont
+        }
+    }
+    else {
+        while (textView.sizeThatFits(CGSize(width: fixedWidth, height: CGFloat(MAXFLOAT))).height < textViewSize.height) {
+            expectFont = textView.font;
+            textView.font = textView.font!.withSize(textView.font!.pointSize + 1)
+        }
+        textView.font = expectFont;
+    }
+}
+

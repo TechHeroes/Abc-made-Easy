@@ -49,7 +49,7 @@ class Level2ViewController: EventHandler {
         super.viewDidLoad()
 //        view.backgroundColor = .white
         letterView.backgroundColor = .white
-        
+        updateTextFont(textView: letterView)
         view.addSubview(letterImageView)
         view.addSubview(swipeableView)
         

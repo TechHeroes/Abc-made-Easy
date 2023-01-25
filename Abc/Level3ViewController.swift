@@ -1,8 +1,5 @@
 //
-//  Level3ViewController.swift
-//  Abc
-//
-//  Created by Mansoor Khan on 24/12/22.
+//  Created by Mansoor Khan <thisismansoorkhan@gmail.com> on 24/12/22.
 //
 
 import UIKit
@@ -50,7 +47,13 @@ class Level3ViewController: EventHandler {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+//        letterView.font =  UIFont.preferredFont(forTextStyle: .body)
+//        letterView.font?.withSize(200)
+//        letterView.adjustsFontForContentSizeCategory = true
+//        letterView.adjustsFontSizeToFitWidth = true
+//        letterView.minimumScaleFactor = 0.2
         letterView.backgroundColor = .white
+        updateTextFont(textView: letterView)
         setTextAndImages()
         
 //        view.addSubview(swipeableView)

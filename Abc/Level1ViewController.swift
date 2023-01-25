@@ -18,6 +18,7 @@ class Level1ViewController: EventHandler {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateTextFont(textView: L1letterView)
         setTextAndSound(index: nextKey, target: L1letterView)
         addTapEvent()
     }
