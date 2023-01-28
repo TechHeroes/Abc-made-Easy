@@ -1,7 +1,4 @@
 //
-//  Level2ViewController.swift
-//  Abc
-//
 //  Created by Mansoor Khan <thisismansoorkhan@gmail.com> on 12/12/22.
 //
 

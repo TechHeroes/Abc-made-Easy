@@ -1,7 +1,4 @@
 //
-//  appOperations.swift
-//  Abc
-//
 //  Created by Mansoor Khan on 17/12/22.
 //
 
